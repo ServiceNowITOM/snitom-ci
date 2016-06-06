@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="GitHub Commit Files" max_length="40" name="x_snc_itom_ci_github_commit_files" type="collection">
+        <element label="Commit" max_length="32" name="commit" reference="x_snc_itom_ci_github_commits" type="reference"/>
+        <element label="Commit_SHA" max_length="41" name="commit_sha" type="string"/>
+        <element default="0" label="File_Additions" max_length="40" name="file_additions" type="integer"/>
+        <element default="0" label="File_Changes" max_length="40" name="file_changes" type="integer"/>
+        <element default="0" label="File_Deletions" max_length="40" name="file_deletions" type="integer"/>
+        <element display="true" label="File_Name" max_length="256" name="file_name" type="string"/>
+        <element label="Patch" max_length="20480" name="file_text" type="string"/>
+        <element label="Status" max_length="256" name="status" type="string"/>
+        <element label="Total_File_Changes" max_length="40" name="total_file_changes" type="integer"/>
+        <index name="index">
+            <element name="commit"/>
+        </index>
+    </element>
+</database>

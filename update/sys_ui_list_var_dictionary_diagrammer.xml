@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="var_dictionary" version="2" view="diagrammer">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>label</element>
+            <list_id display_value="var_dictionary" element="NULL" name="var_dictionary" parent="NULL" relationship="NULL" sys_domain="global" view="94d8950713131200913abcc32244b062">8774905137232100b2cf04368e41f1e6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>harry.nelson</sys_created_by>
+            <sys_created_on>2014-10-02 23:28:35</sys_created_on>
+            <sys_id>0f74905137232100b2cf04368e41f1e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>harry.nelson</sys_updated_by>
+            <sys_updated_on>2014-10-02 23:28:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reference</element>
+            <list_id display_value="var_dictionary" element="NULL" name="var_dictionary" parent="NULL" relationship="NULL" sys_domain="global" view="94d8950713131200913abcc32244b062">8774905137232100b2cf04368e41f1e6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>harry.nelson</sys_created_by>
+            <sys_created_on>2014-10-02 23:28:35</sys_created_on>
+            <sys_id>4f74905137232100b2cf04368e41f1e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>harry.nelson</sys_updated_by>
+            <sys_updated_on>2014-10-02 23:28:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>internal_type</element>
+            <list_id display_value="var_dictionary" element="NULL" name="var_dictionary" parent="NULL" relationship="NULL" sys_domain="global" view="94d8950713131200913abcc32244b062">8774905137232100b2cf04368e41f1e6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>harry.nelson</sys_created_by>
+            <sys_created_on>2014-10-02 23:28:35</sys_created_on>
+            <sys_id>8f74905137232100b2cf04368e41f1e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>harry.nelson</sys_updated_by>
+            <sys_updated_on>2014-10-02 23:28:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>default_value</element>
+            <list_id display_value="var_dictionary" element="NULL" name="var_dictionary" parent="NULL" relationship="NULL" sys_domain="global" view="94d8950713131200913abcc32244b062">8774905137232100b2cf04368e41f1e6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>harry.nelson</sys_created_by>
+            <sys_created_on>2014-10-02 23:28:35</sys_created_on>
+            <sys_id>cf74905137232100b2cf04368e41f1e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>harry.nelson</sys_updated_by>
+            <sys_updated_on>2014-10-02 23:28:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>var_dictionary</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2016-06-06 16:17:29</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7868e35613b35a00913abcc32244b05c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>var_dictionary</sys_name>
+            <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+            <sys_update_name>sys_ui_list_var_dictionary_diagrammer</sys_update_name>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2016-06-06 16:17:29</sys_updated_on>
+            <sys_user display_value="Shaun Millin">499eaa3213671600913abcc32244b0f7</sys_user>
+            <view display_value="Diagrammer" name="diagrammer">94d8950713131200913abcc32244b062</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

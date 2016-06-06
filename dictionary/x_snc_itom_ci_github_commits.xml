@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="GitHub Commits" max_length="40" name="x_snc_itom_ci_github_commits" type="collection">
+        <element label="Branch" max_length="32" name="branch" reference="x_snc_itom_ci_github_branches" type="reference"/>
+        <element default="0" label="Change_Additions" max_length="40" name="change_additions" type="integer"/>
+        <element default="0" label="Change_Deletions" max_length="40" name="change_deletions" type="integer"/>
+        <element label="Commiter" max_length="1024" name="commiter" type="string"/>
+        <element label="Commiter_Email" max_length="1024" name="commiter_email" type="string"/>
+        <element label="Commit Date" mandatory="true" max_length="40" name="commit_date" type="glide_date_time"/>
+        <element label="Message" max_length="20480" name="message" type="string"/>
+        <element label="Repository" max_length="32" name="repository" reference="x_snc_itom_ci_github_repositories" type="reference"/>
+        <element display="true" label="SHA" mandatory="true" max_length="41" name="sha" type="string"/>
+        <element default="0" label="Total_Changes" max_length="40" name="total_changes" type="integer"/>
+        <element label="Url" max_length="1024" name="url" type="url"/>
+        <index name="index">
+            <element name="repository"/>
+        </index>
+        <index name="index2">
+            <element name="branch"/>
+        </index>
+    </element>
+</database>

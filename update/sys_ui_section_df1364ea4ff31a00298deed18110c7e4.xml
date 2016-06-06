@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="df1364ea4ff31a00298deed18110c7e4" sys_domain="global" table="x_snc_itom_ci_jenkins_builds" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>build_id</element>
+            <position>0</position>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 20:34:04</sys_created_on>
+            <sys_id>9f1364ea4ff31a00298deed18110c7e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_builds" sys_domain="global" view="Default view">df1364ea4ff31a00298deed18110c7e4</sys_ui_section>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-06 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building</element>
+            <position>1</position>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 20:34:04</sys_created_on>
+            <sys_id>231364ea4ff31a00298deed18110c7e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_builds" sys_domain="global" view="Default view">df1364ea4ff31a00298deed18110c7e4</sys_ui_section>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-06 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>build_number</element>
+            <position>2</position>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 20:34:04</sys_created_on>
+            <sys_id>a31364ea4ff31a00298deed18110c7e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_builds" sys_domain="global" view="Default view">df1364ea4ff31a00298deed18110c7e4</sys_ui_section>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-06 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>commit</element>
+            <position>3</position>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 20:34:04</sys_created_on>
+            <sys_id>271364ea4ff31a00298deed18110c7e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_builds" sys_domain="global" view="Default view">df1364ea4ff31a00298deed18110c7e4</sys_ui_section>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-06 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>4</position>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 20:34:04</sys_created_on>
+            <sys_id>a71364ea4ff31a00298deed18110c7e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_builds" sys_domain="global" view="Default view">df1364ea4ff31a00298deed18110c7e4</sys_ui_section>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-06 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>display_name</element>
+            <position>5</position>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 20:34:04</sys_created_on>
+            <sys_id>2b1364ea4ff31a00298deed18110c7e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_builds" sys_domain="global" view="Default view">df1364ea4ff31a00298deed18110c7e4</sys_ui_section>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-06 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 20:34:04</sys_created_on>
+            <sys_id>ab1364ea4ff31a00298deed18110c7e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_builds" sys_domain="global" view="Default view">df1364ea4ff31a00298deed18110c7e4</sys_ui_section>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-06 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>duration</element>
+            <position>7</position>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 20:34:04</sys_created_on>
+            <sys_id>2f1364ea4ff31a00298deed18110c7e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_builds" sys_domain="global" view="Default view">df1364ea4ff31a00298deed18110c7e4</sys_ui_section>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-06 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 20:34:04</sys_created_on>
+            <sys_id>af1364ea4ff31a00298deed18110c7e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_builds" sys_domain="global" view="Default view">df1364ea4ff31a00298deed18110c7e4</sys_ui_section>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-06 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>estimated_duration</element>
+            <position>9</position>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 20:34:04</sys_created_on>
+            <sys_id>231364ea4ff31a00298deed18110c7e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_builds" sys_domain="global" view="Default view">df1364ea4ff31a00298deed18110c7e4</sys_ui_section>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-06 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 20:34:04</sys_created_on>
+            <sys_id>a31364ea4ff31a00298deed18110c7e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_builds" sys_domain="global" view="Default view">df1364ea4ff31a00298deed18110c7e4</sys_ui_section>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-06 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>full_display_name</element>
+            <position>11</position>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 20:34:04</sys_created_on>
+            <sys_id>271364ea4ff31a00298deed18110c7e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_builds" sys_domain="global" view="Default view">df1364ea4ff31a00298deed18110c7e4</sys_ui_section>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-06 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>result</element>
+            <position>12</position>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 20:34:04</sys_created_on>
+            <sys_id>a71364ea4ff31a00298deed18110c7e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_builds" sys_domain="global" view="Default view">df1364ea4ff31a00298deed18110c7e4</sys_ui_section>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-06 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>timestamp</element>
+            <position>13</position>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 20:34:04</sys_created_on>
+            <sys_id>2b1364ea4ff31a00298deed18110c7e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_builds" sys_domain="global" view="Default view">df1364ea4ff31a00298deed18110c7e4</sys_ui_section>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-06 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>url</element>
+            <position>14</position>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 20:34:04</sys_created_on>
+            <sys_id>ab1364ea4ff31a00298deed18110c7e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_builds" sys_domain="global" view="Default view">df1364ea4ff31a00298deed18110c7e4</sys_ui_section>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-06 20:34:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_itom_ci_jenkins_builds</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 20:34:04</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df1364ea4ff31a00298deed18110c7e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_itom_ci_jenkins_builds</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+            <sys_update_name>sys_ui_section_df1364ea4ff31a00298deed18110c7e4</sys_update_name>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-06 20:34:04</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

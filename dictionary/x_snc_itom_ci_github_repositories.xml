@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="GitHub Repositories" max_length="40" name="x_snc_itom_ci_github_repositories" type="collection">
+        <element label="Description" max_length="20480" name="description" type="string"/>
+        <element label="Full Name" max_length="20480" name="full_name" type="string"/>
+        <element display="true" label="Name" max_length="2048" name="name" type="string"/>
+        <element label="Url" max_length="1024" name="url" type="url"/>
+    </element>
+</database>

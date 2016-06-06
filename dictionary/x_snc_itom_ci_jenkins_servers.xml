@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Jenkins Servers" max_length="40" name="x_snc_itom_ci_jenkins_servers" type="collection">
+        <element display="true" label="Host" max_length="256" name="host" type="string"/>
+    </element>
+</database>

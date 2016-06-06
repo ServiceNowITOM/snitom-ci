@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Jenkins Servers" language="en" table="x_snc_itom_ci_jenkins_servers">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Jenkins Servers</label>
+            <language>en</language>
+            <name>x_snc_itom_ci_jenkins_servers</name>
+            <plural>Jenkins Servers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-03 15:19:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4b5ef7d54f73d600298deed18110c709</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Jenkins Servers</sys_name>
+            <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_itom_ci_jenkins_servers__en</sys_update_name>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-03 15:19:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

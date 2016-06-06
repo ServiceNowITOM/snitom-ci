@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>POST</http_method>
+        <name>notification</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+	/* TODO: Add validation of secret token from GitHub Webhook */
+	
+	req_data = request.body.data;
+	
+	wf_name = "CI Post Build WebHook";
+	wf_vars = { };
+	wf_vars.u_build_host = request.getHeader("x-forwarded-for");
+	wf_vars.u_build_url = req_data.build.full_url;
+	wf_vars.u_scm_url = req_data.build.scm.url;
+	wf_vars.u_scm_branch = req_data.build.scm.branch;
+	wf_vars.u_scm_commit = req_data.build.scm.commit;
+	
+	
+	wf = new global.Workflow();
+	wfid = wf.getWorkflowFromName(wf_name);
+	wf.startFlow(wfid, null, wf_name, wf_vars);
+	
+	response.setStatus(200);
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_snc_itom_ci/jenkins_webhook/notification</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/notification</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>false</requires_authentication>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>reuben.stump</sys_created_by>
+        <sys_created_on>2016-06-06 14:48:16</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c1d39f9e4f731a00298deed18110c734</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>notification</sys_name>
+        <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+        <sys_update_name>sys_ws_operation_c1d39f9e4f731a00298deed18110c734</sys_update_name>
+        <sys_updated_by>reuben.stump</sys_updated_by>
+        <sys_updated_on>2016-06-06 16:16:38</sys_updated_on>
+        <web_service_definition display_value="Jenkins Webhook">3fb35f9e4f731a00298deed18110c789</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
