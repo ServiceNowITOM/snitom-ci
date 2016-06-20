@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="pushed_at" label="Pushed At" language="en" table="x_snc_itom_ci_dockerhub_images">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>pushed_at</element>
+            <help/>
+            <hint/>
+            <label>Pushed At</label>
+            <language>en</language>
+            <name>x_snc_itom_ci_dockerhub_images</name>
+            <plural>Pushed Ats</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-09 14:24:18</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d04b229f13bb1200913abcc32244b0c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Pushed At</sys_name>
+            <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_itom_ci_dockerhub_images_pushed_at_en</sys_update_name>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-09 14:24:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

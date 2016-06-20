@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="DockerHub Images" max_length="40" name="x_snc_itom_ci_dockerhub_images" type="collection">
+        <element label="Pushed At" max_length="40" name="pushed_at" type="glide_date_time"/>
+        <element label="Pusher" max_length="1024" name="pusher" type="string"/>
+        <element label="Repository" max_length="32" name="repository" reference="x_snc_itom_ci_dockerhub_repositories" type="reference"/>
+        <element label="Tag" max_length="1024" name="tag" type="string"/>
+        <index name="index">
+            <element name="repository"/>
+        </index>
+    </element>
+</database>

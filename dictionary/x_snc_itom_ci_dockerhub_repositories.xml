@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="DockerHub Repositories" max_length="40" name="x_snc_itom_ci_dockerhub_repositories" type="collection">
+        <element default="0" label="Comment Count" max_length="40" name="comment_count" type="integer"/>
+        <element label="Date Created" max_length="40" name="date_created" type="glide_date_time"/>
+        <element label="Description" max_length="20480" name="description" type="string"/>
+        <element label="Full Description" max_length="20480" name="full_description" type="string"/>
+        <element label="Is Official" max_length="40" name="is_official" type="boolean"/>
+        <element label="Is Private" max_length="40" name="is_private" type="boolean"/>
+        <element label="Is Trusted" max_length="40" name="is_trusted" type="boolean"/>
+        <element display="true" label="Name" max_length="2048" name="name" type="string"/>
+        <element label="Namespace" max_length="2048" name="namespace" type="string"/>
+        <element label="Owner" max_length="2048" name="owner" type="string"/>
+        <element label="Repo Name" max_length="2048" name="repo_name" type="string"/>
+        <element label="Repo Url" max_length="2048" name="repo_url" type="url"/>
+        <element label="Star Count" max_length="40" name="star_count" type="integer"/>
+        <element label="Status" max_length="1024" name="status" type="string"/>
+    </element>
+</database>

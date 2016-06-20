@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="v_user_session" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="v_user_session" element="NULL" name="v_user_session" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a49dc77e13331200913abcc32244b025</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-06-08 03:37:17</sys_created_on>
+            <sys_id>e89dc77e13331200913abcc32244b025</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-08 03:37:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>user</element>
+            <list_id display_value="v_user_session" element="NULL" name="v_user_session" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a49dc77e13331200913abcc32244b025</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-06-08 03:37:17</sys_created_on>
+            <sys_id>6c9dc77e13331200913abcc32244b025</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-08 03:37:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>last_transaction</element>
+            <list_id display_value="v_user_session" element="NULL" name="v_user_session" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a49dc77e13331200913abcc32244b025</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-06-08 03:37:17</sys_created_on>
+            <sys_id>ec9dc77e13331200913abcc32244b025</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-08 03:37:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>transaction_duration</element>
+            <list_id display_value="v_user_session" element="NULL" name="v_user_session" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a49dc77e13331200913abcc32244b025</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-06-08 03:37:17</sys_created_on>
+            <sys_id>609dc77e13331200913abcc32244b026</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-08 03:37:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>last_accessed</element>
+            <list_id display_value="v_user_session" element="NULL" name="v_user_session" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a49dc77e13331200913abcc32244b025</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-06-08 03:37:17</sys_created_on>
+            <sys_id>e09dc77e13331200913abcc32244b026</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-08 03:37:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>last_transaction_time</element>
+            <list_id display_value="v_user_session" element="NULL" name="v_user_session" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a49dc77e13331200913abcc32244b025</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-06-08 03:37:17</sys_created_on>
+            <sys_id>649dc77e13331200913abcc32244b026</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-08 03:37:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>total_transactions</element>
+            <list_id display_value="v_user_session" element="NULL" name="v_user_session" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a49dc77e13331200913abcc32244b025</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-06-08 03:37:17</sys_created_on>
+            <sys_id>e49dc77e13331200913abcc32244b026</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-08 03:37:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>locked</element>
+            <list_id display_value="v_user_session" element="NULL" name="v_user_session" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a49dc77e13331200913abcc32244b025</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-06-08 03:37:17</sys_created_on>
+            <sys_id>689dc77e13331200913abcc32244b026</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-08 03:37:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>v_user_session</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-10 02:25:05</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>663019a313bf1200913abcc32244b00b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>v_user_session</sys_name>
+            <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+            <sys_update_name>sys_ui_list_v_user_session_null</sys_update_name>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-10 02:25:05</sys_updated_on>
+            <sys_user display_value="Reuben Stump">b60c4b834f531200298deed18110c7c5</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

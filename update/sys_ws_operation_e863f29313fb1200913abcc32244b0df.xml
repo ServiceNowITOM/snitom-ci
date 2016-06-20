@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>POST</http_method>
+        <name>Push Event</name>
+        <operation_script><![CDATA[function secondsToDateTime(s) {
+	var dt = new Date(s * 1000);
+		
+	dt_string = '';
+	dt_string += dt.getFullYear();
+	dt_string += "-";
+	dt_string += dt.getMonth() + 1;
+	dt_string += "-";
+	dt_string += dt.getDate();
+	dt_string += " ";
+	dt_string += dt.getHours();
+	dt_string += ":";
+	dt_string += dt.getMinutes();
+	dt_string += ":";
+	dt_string += dt.getSeconds();
+	
+	return dt_string;
+}
+
+function setRepoRecordFields(record, content) {
+	record.repo_url = content.repository.repo_url;
+	record.status = content.repository.status;
+	record.description = content.repository.description;
+	record.is_trusted = content.repository.is_trusted;
+	record.full_description = content.repository.full_description;
+	record.owner = content.repository.owner;
+	record.is_official = content.repository.is_official;
+	record.is_private = content.repository.is_private;
+	record.name = content.repository.name;
+	record.namespace = content.repository.namespace;
+	record.star_count = content.repository.star_count;
+	record.comment_count = content.repository.comment_count;
+	record.repo_name = content.repository.repo_name;
+}
+
+(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	
+	repositories_table = "x_snc_itom_ci_dockerhub_repositories";
+	images_table = "x_snc_itom_ci_dockerhub_images";
+    content = request.body.data;
+	
+	repos = new GlideRecord(repositories_table);
+	repos.addQuery('repo_url', content.repository.repo_url);
+	repos.query();
+	
+	record_exists = false;
+	while (repos.next()) {
+		setRepoRecordFields(repos, content);
+		repos.date_created = secondsToDateTime(content.repository.date_created);
+		
+		sys_id = repos.update();
+		record_exists = true;
+	}
+	
+	if (record_exists == false) {
+		record = new GlideRecord(repositories_table);
+		record.initialize();
+		
+		setRepoRecordFields(record, content);
+		record.date_created = secondsToDateTime(content.repository.date_created);
+		
+		sys_id = record.insert();
+	}
+	
+	images = new GlideRecord(images_table);
+	images.addQuery('tag', content.push_data.tag);
+	images.query();
+	
+	record_exists = false;
+	while (images.next()){
+		images.pushed_at = secondsToDateTime(content.push_data.pushed_at);
+		images.tag = content.push_data.tag;
+		images.pusher = content.push_data.pusher;
+		images.repository = sys_id;
+		
+		images.update();
+		record_exists = true;
+	}
+	
+	if (record_exists == false) {
+		record = new GlideRecord(images_table);
+		record.initialize();
+		
+		record.pushed_at = secondsToDateTime(content.push_data.pushed_at);
+		record.tag = content.push_data.tag;
+		record.pusher = content.push_data.pusher;
+		record.repository = sys_id;
+		
+		record.insert();
+	}
+	
+	response_body = {
+		state: "success",
+		description: "ServiceNow DockerHub Webhook",
+		context: "Continuous Integration",
+		target_url: ""
+	};
+	
+	response.setLocation(content.callback_url);
+	response.setBody(response_body);
+	response.setContentType("application/json");
+	response.setStatus(200);
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_snc_itom_ci/dockerhub_webhook/push</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/push</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>false</requires_authentication>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>reuben.stump</sys_created_by>
+        <sys_created_on>2016-06-09 15:19:46</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e863f29313fb1200913abcc32244b0df</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Push Event</sys_name>
+        <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+        <sys_update_name>sys_ws_operation_e863f29313fb1200913abcc32244b0df</sys_update_name>
+        <sys_updated_by>reuben.stump</sys_updated_by>
+        <sys_updated_on>2016-06-09 16:49:23</sys_updated_on>
+        <web_service_definition display_value="DockerHub Webhook">ae8d6a1b4fbb1200298deed18110c7eb</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

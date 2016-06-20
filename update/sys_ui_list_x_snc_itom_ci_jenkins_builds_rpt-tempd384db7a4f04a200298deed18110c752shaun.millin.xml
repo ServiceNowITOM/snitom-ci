@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_itom_ci_jenkins_builds" version="2" view="rpt-tempd384db7a4f04a200298deed18110c752shaun.millin">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>display_name</element>
+            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="97845b7a4f04a200298deed18110c7db">b0c61bba4f04a200298deed18110c7f6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2016-06-20 14:33:08</sys_created_on>
+            <sys_id>b4c61bba4f04a200298deed18110c7f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2016-06-20 14:33:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>result</element>
+            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="97845b7a4f04a200298deed18110c7db">b0c61bba4f04a200298deed18110c7f6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2016-06-20 14:33:08</sys_created_on>
+            <sys_id>38c61bba4f04a200298deed18110c7f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2016-06-20 14:33:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>timestamp</element>
+            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="97845b7a4f04a200298deed18110c7db">b0c61bba4f04a200298deed18110c7f6</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2016-06-20 14:33:08</sys_created_on>
+            <sys_id>b8c61bba4f04a200298deed18110c7f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2016-06-20 14:33:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_itom_ci_jenkins_builds</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2016-06-20 14:33:08</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0c61bba4f04a200298deed18110c7f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2016-06-20 14:33:08</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt-tempd384db7a4f04a200298deed18110c752shaun.millin" name="rpt-tempd384db7a4f04a200298deed18110c752shaun.millin">97845b7a4f04a200298deed18110c7db</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -9,7 +9,7 @@
         <element default="0" label="Duration" max_length="40" name="duration" type="integer"/>
         <element default="0" label="Estimated_Duration" max_length="40" name="estimated_duration" type="integer"/>
         <element label="Full_Display_Name" max_length="2048" name="full_display_name" type="string"/>
-        <element label="Result" max_length="1024" name="result" type="string"/>
+        <element label="Result" max_length="40" name="result" type="string"/>
         <element label="TimeStamp" max_length="40" name="timestamp" type="glide_date_time"/>
         <element label="Url" max_length="1024" name="url" type="url"/>
         <index name="index">

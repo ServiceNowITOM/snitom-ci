@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2016-06-20 15:03:32">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>shaun.millin</sys_created_by>
+        <sys_created_on>2016-06-09 14:15:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6029e21f13bb1200913abcc32244b059</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Continuous Integration</sys_name>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>shaun.millin</sys_updated_by>
+        <sys_updated_on>2016-06-09 14:15:03</sys_updated_on>
+        <title>My Continuous Integration</title>
+        <user display_value="Shaun Millin">499eaa3213671600913abcc32244b0f7</user>
+        <view/>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="My Continuous Integration">6029e21f13bb1200913abcc32244b059</page>
+                <summary>Build Job Duration</summary>
+                <sys_created_by>shaun.millin</sys_created_by>
+                <sys_created_on>2016-06-09 14:15:03</sys_created_on>
+                <sys_id>2829e21f13bb1200913abcc32244b059</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>shaun.millin</sys_updated_by>
+                <sys_updated_on>2016-06-09 14:15:03</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-09 10:15:03">2829e21f13bb1200913abcc32244b059</portal_section>
+                        <sys_created_by>shaun.millin</sys_created_by>
+                        <sys_created_on>2016-06-09 14:15:03</sys_created_on>
+                        <sys_id>2029e21f13bb1200913abcc32244b05a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shaun.millin</sys_updated_by>
+                        <sys_updated_on>2016-06-09 14:15:03</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-09 10:15:03">2829e21f13bb1200913abcc32244b059</portal_section>
+                        <sys_created_by>shaun.millin</sys_created_by>
+                        <sys_created_on>2016-06-09 14:15:03</sys_created_on>
+                        <sys_id>6829e21f13bb1200913abcc32244b05a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shaun.millin</sys_updated_by>
+                        <sys_updated_on>2016-06-09 14:15:03</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-09 10:15:03">2829e21f13bb1200913abcc32244b059</portal_section>
+                        <sys_created_by>shaun.millin</sys_created_by>
+                        <sys_created_on>2016-06-09 14:15:03</sys_created_on>
+                        <sys_id>a429e21f13bb1200913abcc32244b05a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shaun.millin</sys_updated_by>
+                        <sys_updated_on>2016-06-09 14:15:03</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-09 10:15:03">2829e21f13bb1200913abcc32244b059</portal_section>
+                        <sys_created_by>shaun.millin</sys_created_by>
+                        <sys_created_on>2016-06-09 14:15:03</sys_created_on>
+                        <sys_id>e029e21f13bb1200913abcc32244b05a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shaun.millin</sys_updated_by>
+                        <sys_updated_on>2016-06-09 14:15:03</sys_updated_on>
+                        <value>d290947e133b5a00913abcc32244b04c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-09 10:15:03">2829e21f13bb1200913abcc32244b059</portal_section>
+                        <sys_created_by>shaun.millin</sys_created_by>
+                        <sys_created_on>2016-06-09 14:15:03</sys_created_on>
+                        <sys_id>e829e21f13bb1200913abcc32244b059</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shaun.millin</sys_updated_by>
+                        <sys_updated_on>2016-06-09 14:15:03</sys_updated_on>
+                        <value>Build Job Duration</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="My Continuous Integration">6029e21f13bb1200913abcc32244b059</page>
+                <summary>Commit Log</summary>
+                <sys_created_by>shaun.millin</sys_created_by>
+                <sys_created_on>2016-06-09 14:15:45</sys_created_on>
+                <sys_id>4b492a1f13bb1200913abcc32244b01c</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>shaun.millin</sys_updated_by>
+                <sys_updated_on>2016-06-09 14:15:45</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-09 10:15:45">4b492a1f13bb1200913abcc32244b01c</portal_section>
+                        <sys_created_by>shaun.millin</sys_created_by>
+                        <sys_created_on>2016-06-09 14:15:45</sys_created_on>
+                        <sys_id>07492a1f13bb1200913abcc32244b01d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shaun.millin</sys_updated_by>
+                        <sys_updated_on>2016-06-09 14:15:45</sys_updated_on>
+                        <value>8120983e133b5a00913abcc32244b0c1</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-09 10:15:45">4b492a1f13bb1200913abcc32244b01c</portal_section>
+                        <sys_created_by>shaun.millin</sys_created_by>
+                        <sys_created_on>2016-06-09 14:15:45</sys_created_on>
+                        <sys_id>0f492a1f13bb1200913abcc32244b01c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shaun.millin</sys_updated_by>
+                        <sys_updated_on>2016-06-09 14:15:45</sys_updated_on>
+                        <value>Commit Log</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-09 10:15:45">4b492a1f13bb1200913abcc32244b01c</portal_section>
+                        <sys_created_by>shaun.millin</sys_created_by>
+                        <sys_created_on>2016-06-09 14:15:45</sys_created_on>
+                        <sys_id>43492a1f13bb1200913abcc32244b01d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shaun.millin</sys_updated_by>
+                        <sys_updated_on>2016-06-09 14:15:45</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-09 10:15:45">4b492a1f13bb1200913abcc32244b01c</portal_section>
+                        <sys_created_by>shaun.millin</sys_created_by>
+                        <sys_created_on>2016-06-09 14:15:45</sys_created_on>
+                        <sys_id>8b492a1f13bb1200913abcc32244b01d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shaun.millin</sys_updated_by>
+                        <sys_updated_on>2016-06-09 14:15:45</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-09 10:15:45">4b492a1f13bb1200913abcc32244b01c</portal_section>
+                        <sys_created_by>shaun.millin</sys_created_by>
+                        <sys_created_on>2016-06-09 14:15:45</sys_created_on>
+                        <sys_id>c7492a1f13bb1200913abcc32244b01d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shaun.millin</sys_updated_by>
+                        <sys_updated_on>2016-06-09 14:15:45</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="My Continuous Integration">6029e21f13bb1200913abcc32244b059</page>
+                <summary>Build Status Report Projects</summary>
+                <sys_created_by>shaun.millin</sys_created_by>
+                <sys_created_on>2016-06-09 14:15:27</sys_created_on>
+                <sys_id>6239a61f13bb1200913abcc32244b0a1</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>shaun.millin</sys_updated_by>
+                <sys_updated_on>2016-06-09 14:15:27</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-09 10:15:27">6239a61f13bb1200913abcc32244b0a1</portal_section>
+                        <sys_created_by>shaun.millin</sys_created_by>
+                        <sys_created_on>2016-06-09 14:15:27</sys_created_on>
+                        <sys_id>2639a61f13bb1200913abcc32244b0a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shaun.millin</sys_updated_by>
+                        <sys_updated_on>2016-06-09 14:15:27</sys_updated_on>
+                        <value>Build Status Report Projects</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-09 10:15:27">6239a61f13bb1200913abcc32244b0a1</portal_section>
+                        <sys_created_by>shaun.millin</sys_created_by>
+                        <sys_created_on>2016-06-09 14:15:27</sys_created_on>
+                        <sys_id>2e39a61f13bb1200913abcc32244b0a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shaun.millin</sys_updated_by>
+                        <sys_updated_on>2016-06-09 14:15:27</sys_updated_on>
+                        <value>c72590fe133b5a00913abcc32244b0b9</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-09 10:15:27">6239a61f13bb1200913abcc32244b0a1</portal_section>
+                        <sys_created_by>shaun.millin</sys_created_by>
+                        <sys_created_on>2016-06-09 14:15:27</sys_created_on>
+                        <sys_id>6a39a61f13bb1200913abcc32244b0a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shaun.millin</sys_updated_by>
+                        <sys_updated_on>2016-06-09 14:15:27</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-09 10:15:27">6239a61f13bb1200913abcc32244b0a1</portal_section>
+                        <sys_created_by>shaun.millin</sys_created_by>
+                        <sys_created_on>2016-06-09 14:15:27</sys_created_on>
+                        <sys_id>a239a61f13bb1200913abcc32244b0a2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shaun.millin</sys_updated_by>
+                        <sys_updated_on>2016-06-09 14:15:27</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-09 10:15:27">6239a61f13bb1200913abcc32244b0a1</portal_section>
+                        <sys_created_by>shaun.millin</sys_created_by>
+                        <sys_created_on>2016-06-09 14:15:27</sys_created_on>
+                        <sys_id>ee39a61f13bb1200913abcc32244b0a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>shaun.millin</sys_updated_by>
+                        <sys_updated_on>2016-06-09 14:15:27</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>
