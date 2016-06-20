@@ -33,7 +33,7 @@
         <donut_width_percent>50</donut_width_percent>
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
-        <field_list>sha,branch.name,repository.full_name,commiter,sys_created_on</field_list>
+        <field_list>sha,repository,repository.url,branch.name,commiter,commiter_email,commit_date</field_list>
         <filter table="x_snc_itom_ci_github_commits">commit_dateONToday@javascript:gs.daysAgoStart(0)@javascript:gs.daysAgoEnd(0)^EQ^ORDERBYbranch^ORDERBYsys_created_on<item endquery="false" field="commit_date" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.daysAgoStart(0)@javascript:gs.daysAgoEnd(0)"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
             <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="branch"/>
@@ -88,21 +88,21 @@
         <sys_created_on>2016-06-20 14:19:10</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>0493177a4f04a200298deed18110c72e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Todays Commits</sys_name>
         <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
         <sys_update_name>sys_report_0493177a4f04a200298deed18110c72e</sys_update_name>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-20 14:33:36</sys_updated_on>
+        <sys_updated_by>reuben.stump</sys_updated_by>
+        <sys_updated_on>2016-06-20 17:18:08</sys_updated_on>
         <table>x_snc_itom_ci_github_commits</table>
         <title>Todays Commits</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>branch...</trend_field>
+        <trend_field>commit_date</trend_field>
         <type>list</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>

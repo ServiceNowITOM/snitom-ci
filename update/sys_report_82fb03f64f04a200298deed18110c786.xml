@@ -32,10 +32,10 @@
         <display_grid>false</display_grid>
         <donut_width_percent>50</donut_width_percent>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>repository</field>
+        <field>commit_date</field>
         <field_list/>
-        <filter table="x_snc_itom_ci_github_commits">^GROUPBYrepository^TRENDBYcommit_date,dayofweek<item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="repository"/>
-            <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="commit_date,dayofweek"/>
+        <filter table="x_snc_itom_ci_github_commits">^GROUPBYcommit_date^TRENDBYrepository,dayofweek<item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="commit_date"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="repository,dayofweek"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -86,7 +86,7 @@
         <sys_created_on>2016-06-20 13:46:00</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>82fb03f64f04a200298deed18110c786</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Commits Per Repo. Per Day</sys_name>
         <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
         <sys_policy/>
@@ -94,14 +94,14 @@
         <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
         <sys_update_name>sys_report_82fb03f64f04a200298deed18110c786</sys_update_name>
         <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-20 14:30:57</sys_updated_on>
+        <sys_updated_on>2016-06-20 15:57:40</sys_updated_on>
         <table>x_snc_itom_ci_github_commits</table>
         <title>Commits Per Repo. Per Day</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>commit_date</trend_field>
-        <type>line</type>
+        <trend_field>repository</trend_field>
+        <type>bar</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>
         <use_color_palette>true</use_color_palette>
