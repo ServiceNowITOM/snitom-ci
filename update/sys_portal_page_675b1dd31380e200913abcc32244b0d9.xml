@@ -1,0 +1,1669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2016-06-21 19:02:34">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_3_across">f6df4af10a0a0b120070a45fa26bf4f3</layout>
+        <order/>
+        <read_roles>admin</read_roles>
+        <roles>admin</roles>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>reuben.stump</sys_created_by>
+        <sys_created_on>2016-06-21 18:51:27</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>675b1dd31380e200913abcc32244b0d9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Continuous Integration</sys_name>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+        <sys_update_name>sys_portal_page_675b1dd31380e200913abcc32244b0d9</sys_update_name>
+        <sys_updated_by>reuben.stump</sys_updated_by>
+        <sys_updated_on>2016-06-21 18:52:42</sys_updated_on>
+        <title>Continuous Integration</title>
+        <user/>
+        <view/>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone3</dropzone>
+                <offset>0</offset>
+                <page display_value="Continuous Integration">675b1dd31380e200913abcc32244b0d9</page>
+                <summary/>
+                <sys_created_by>reuben.stump</sys_created_by>
+                <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                <sys_id>028b11171380e200913abcc32244b0f7</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>reuben.stump</sys_updated_by>
+                <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">028b11171380e200913abcc32244b0f7</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>028b11171380e200913abcc32244b0f8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">028b11171380e200913abcc32244b0f7</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>068b11171380e200913abcc32244b0f7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">028b11171380e200913abcc32244b0f7</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>0a8b11171380e200913abcc32244b0f9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">028b11171380e200913abcc32244b0f7</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>0e8b11171380e200913abcc32244b0f8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>d290947e133b5a00913abcc32244b04c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">028b11171380e200913abcc32244b0f7</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>428b11171380e200913abcc32244b0f7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">028b11171380e200913abcc32244b0f7</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>468b11171380e200913abcc32244b0f9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>360</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">028b11171380e200913abcc32244b0f7</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>4a8b11171380e200913abcc32244b0f8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>Build Job Duration</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">028b11171380e200913abcc32244b0f7</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>4e8b11171380e200913abcc32244b0f7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">028b11171380e200913abcc32244b0f7</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>828b11171380e200913abcc32244b0f9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">028b11171380e200913abcc32244b0f7</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>868b11171380e200913abcc32244b0f8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>line</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">028b11171380e200913abcc32244b0f7</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>8a8b11171380e200913abcc32244b0f7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">028b11171380e200913abcc32244b0f7</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>8e8b11171380e200913abcc32244b0f9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>43f75fba4f04a200298deed18110c715</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">028b11171380e200913abcc32244b0f7</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>c28b11171380e200913abcc32244b0f8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">028b11171380e200913abcc32244b0f7</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>c68b11171380e200913abcc32244b0f7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">028b11171380e200913abcc32244b0f7</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>ca8b11171380e200913abcc32244b0f9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">028b11171380e200913abcc32244b0f7</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>ce8b11171380e200913abcc32244b0f8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="Continuous Integration">675b1dd31380e200913abcc32244b0d9</page>
+                <summary/>
+                <sys_created_by>reuben.stump</sys_created_by>
+                <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                <sys_id>0a8b11171380e200913abcc32244b0e6</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>reuben.stump</sys_updated_by>
+                <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:41">0a8b11171380e200913abcc32244b0e6</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>028b11171380e200913abcc32244b0e9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:41">0a8b11171380e200913abcc32244b0e6</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>068b11171380e200913abcc32244b0e8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>82fb03f64f04a200298deed18110c786</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:41">0a8b11171380e200913abcc32244b0e6</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>0a8b11171380e200913abcc32244b0e7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:41">0a8b11171380e200913abcc32244b0e6</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>0e8b11171380e200913abcc32244b0e6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:41">0a8b11171380e200913abcc32244b0e6</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>428b11171380e200913abcc32244b0e8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>Commits Per Repo. Per Day</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:41">0a8b11171380e200913abcc32244b0e6</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>468b11171380e200913abcc32244b0e7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:41">0a8b11171380e200913abcc32244b0e6</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>4a8b11171380e200913abcc32244b0e6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:41">0a8b11171380e200913abcc32244b0e6</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>4e8b11171380e200913abcc32244b0e8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>360</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:41">0a8b11171380e200913abcc32244b0e6</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>828b11171380e200913abcc32244b0e7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:41">0a8b11171380e200913abcc32244b0e6</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>868b11171380e200913abcc32244b0e9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>43f75fba4f04a200298deed18110c715</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:41">0a8b11171380e200913abcc32244b0e6</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>8a8b11171380e200913abcc32244b0e8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:41">0a8b11171380e200913abcc32244b0e6</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>8e8b11171380e200913abcc32244b0e7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:41">0a8b11171380e200913abcc32244b0e6</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>c28b11171380e200913abcc32244b0e9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:41">0a8b11171380e200913abcc32244b0e6</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>c68b11171380e200913abcc32244b0e8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:41">0a8b11171380e200913abcc32244b0e6</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>ca8b11171380e200913abcc32244b0e7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>line</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:41">0a8b11171380e200913abcc32244b0e6</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>ce8b11171380e200913abcc32244b0e6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="Continuous Integration">675b1dd31380e200913abcc32244b0d9</page>
+                <summary/>
+                <sys_created_by>reuben.stump</sys_created_by>
+                <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                <sys_id>0e8b11171380e200913abcc32244b0ee</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>reuben.stump</sys_updated_by>
+                <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">0e8b11171380e200913abcc32244b0ee</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>028b11171380e200913abcc32244b0ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">0e8b11171380e200913abcc32244b0ee</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>068b11171380e200913abcc32244b0f1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">0e8b11171380e200913abcc32244b0ee</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>0a8b11171380e200913abcc32244b0f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>5fb05b3a4f04a200298deed18110c7b0</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">0e8b11171380e200913abcc32244b0ee</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>0e8b11171380e200913abcc32244b0ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">0e8b11171380e200913abcc32244b0ee</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>428b11171380e200913abcc32244b0f1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>360</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">0e8b11171380e200913abcc32244b0ee</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>468b11171380e200913abcc32244b0f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>Builds Per Day Success vs. Failure</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">0e8b11171380e200913abcc32244b0ee</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>4a8b11171380e200913abcc32244b0ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">0e8b11171380e200913abcc32244b0ee</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>4e8b11171380e200913abcc32244b0ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">0e8b11171380e200913abcc32244b0ee</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>828b11171380e200913abcc32244b0f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">0e8b11171380e200913abcc32244b0ee</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>868b11171380e200913abcc32244b0ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">0e8b11171380e200913abcc32244b0ee</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>8a8b11171380e200913abcc32244b0f1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>43f75fba4f04a200298deed18110c715</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">0e8b11171380e200913abcc32244b0ee</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>8e8b11171380e200913abcc32244b0f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">0e8b11171380e200913abcc32244b0ee</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>c28b11171380e200913abcc32244b0ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">0e8b11171380e200913abcc32244b0ee</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>c68b11171380e200913abcc32244b0f1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">0e8b11171380e200913abcc32244b0ee</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>ca8b11171380e200913abcc32244b0f0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">0e8b11171380e200913abcc32244b0ee</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>ce8b11171380e200913abcc32244b0ef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>line</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>3</offset>
+                <page display_value="Continuous Integration">675b1dd31380e200913abcc32244b0d9</page>
+                <summary/>
+                <sys_created_by>reuben.stump</sys_created_by>
+                <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                <sys_id>428b11171380e200913abcc32244b0ed</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>reuben.stump</sys_updated_by>
+                <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">428b11171380e200913abcc32244b0ed</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>068b11171380e200913abcc32244b0ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>Commits Last 30 Days</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">428b11171380e200913abcc32244b0ed</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>0a8b11171380e200913abcc32244b0ed</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">428b11171380e200913abcc32244b0ed</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>428b11171380e200913abcc32244b0ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">428b11171380e200913abcc32244b0ed</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>468b11171380e200913abcc32244b0ed</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">428b11171380e200913abcc32244b0ed</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>828b11171380e200913abcc32244b0ed</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>ca6d0bf64f04a200298deed18110c76d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">428b11171380e200913abcc32244b0ed</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>8e8b11171380e200913abcc32244b0ed</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">428b11171380e200913abcc32244b0ed</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>c68b11171380e200913abcc32244b0ee</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>43f75fba4f04a200298deed18110c715</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">428b11171380e200913abcc32244b0ed</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>ca8b11171380e200913abcc32244b0ed</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>3</offset>
+                <page display_value="Continuous Integration">675b1dd31380e200913abcc32244b0d9</page>
+                <summary/>
+                <sys_created_by>reuben.stump</sys_created_by>
+                <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                <sys_id>468b11171380e200913abcc32244b0f5</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>reuben.stump</sys_updated_by>
+                <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">468b11171380e200913abcc32244b0f5</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>0a8b11171380e200913abcc32244b0f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>Builds 30 Days Ago</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">468b11171380e200913abcc32244b0f5</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>0e8b11171380e200913abcc32244b0f5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">468b11171380e200913abcc32244b0f5</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>468b11171380e200913abcc32244b0f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">468b11171380e200913abcc32244b0f5</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>4a8b11171380e200913abcc32244b0f5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">468b11171380e200913abcc32244b0f5</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>828b11171380e200913abcc32244b0f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">468b11171380e200913abcc32244b0f5</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>868b11171380e200913abcc32244b0f5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>aa02df3a4f04a200298deed18110c7ef</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">468b11171380e200913abcc32244b0f5</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>ca8b11171380e200913abcc32244b0f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>43f75fba4f04a200298deed18110c715</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">468b11171380e200913abcc32244b0f5</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>ce8b11171380e200913abcc32244b0f5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>0</offset>
+                <page display_value="Continuous Integration">675b1dd31380e200913abcc32244b0d9</page>
+                <summary/>
+                <sys_created_by>reuben.stump</sys_created_by>
+                <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                <sys_id>828b51171380e200913abcc32244b00b</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>reuben.stump</sys_updated_by>
+                <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">828b51171380e200913abcc32244b00b</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>0e8b51171380e200913abcc32244b00b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">828b51171380e200913abcc32244b00b</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>468b51171380e200913abcc32244b00c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>43f75fba4f04a200298deed18110c715</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">828b51171380e200913abcc32244b00b</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>4a8b51171380e200913abcc32244b00b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">828b51171380e200913abcc32244b00b</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>828b51171380e200913abcc32244b00c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>Todays Commits</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">828b51171380e200913abcc32244b00b</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>868b51171380e200913abcc32244b00b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">828b51171380e200913abcc32244b00b</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>c28b51171380e200913abcc32244b00b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>0493177a4f04a200298deed18110c72e</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">828b51171380e200913abcc32244b00b</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>ce8b51171380e200913abcc32244b00b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>2</offset>
+                <page display_value="Continuous Integration">675b1dd31380e200913abcc32244b0d9</page>
+                <summary/>
+                <sys_created_by>reuben.stump</sys_created_by>
+                <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                <sys_id>868b11171380e200913abcc32244b0eb</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>reuben.stump</sys_updated_by>
+                <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">868b11171380e200913abcc32244b0eb</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>028b11171380e200913abcc32244b0ec</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">868b11171380e200913abcc32244b0eb</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>0e8b11171380e200913abcc32244b0ec</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>43f75fba4f04a200298deed18110c715</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">868b11171380e200913abcc32244b0eb</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>4a8b11171380e200913abcc32244b0ec</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>Commits Last 7 Days</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">868b11171380e200913abcc32244b0eb</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>4e8b11171380e200913abcc32244b0eb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">868b11171380e200913abcc32244b0eb</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>868b11171380e200913abcc32244b0ec</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">868b11171380e200913abcc32244b0eb</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>8a8b11171380e200913abcc32244b0eb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">868b11171380e200913abcc32244b0eb</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>c28b11171380e200913abcc32244b0ec</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">868b11171380e200913abcc32244b0eb</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>c68b11171380e200913abcc32244b0eb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>f91dc7f64f04a200298deed18110c736</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>2</offset>
+                <page display_value="Continuous Integration">675b1dd31380e200913abcc32244b0d9</page>
+                <summary/>
+                <sys_created_by>reuben.stump</sys_created_by>
+                <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                <sys_id>8a8b11171380e200913abcc32244b0f3</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>reuben.stump</sys_updated_by>
+                <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">8a8b11171380e200913abcc32244b0f3</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>028b11171380e200913abcc32244b0f5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>43f75fba4f04a200298deed18110c715</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">8a8b11171380e200913abcc32244b0f3</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>068b11171380e200913abcc32244b0f4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">8a8b11171380e200913abcc32244b0f3</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>428b11171380e200913abcc32244b0f4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">8a8b11171380e200913abcc32244b0f3</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>4e8b11171380e200913abcc32244b0f4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>Builds 7 Days Ago</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">8a8b11171380e200913abcc32244b0f3</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>8a8b11171380e200913abcc32244b0f4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">8a8b11171380e200913abcc32244b0f3</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>8e8b11171380e200913abcc32244b0f3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">8a8b11171380e200913abcc32244b0f3</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>c68b11171380e200913abcc32244b0f4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">8a8b11171380e200913abcc32244b0f3</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>ca8b11171380e200913abcc32244b0f3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>a6d1df3a4f04a200298deed18110c702</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>1</offset>
+                <page display_value="Continuous Integration">675b1dd31380e200913abcc32244b0d9</page>
+                <summary/>
+                <sys_created_by>reuben.stump</sys_created_by>
+                <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                <sys_id>8a8b51171380e200913abcc32244b00c</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>reuben.stump</sys_updated_by>
+                <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">8a8b51171380e200913abcc32244b00c</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>068b51171380e200913abcc32244b00d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">8a8b51171380e200913abcc32244b00c</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>428b51171380e200913abcc32244b00d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">8a8b51171380e200913abcc32244b00c</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>4e8b51171380e200913abcc32244b00d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>43f75fba4f04a200298deed18110c715</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">8a8b51171380e200913abcc32244b00c</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>8a8b51171380e200913abcc32244b00d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>Todays Builds</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">8a8b51171380e200913abcc32244b00c</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>8e8b51171380e200913abcc32244b00c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">8a8b51171380e200913abcc32244b00c</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>c68b51171380e200913abcc32244b00d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">8a8b51171380e200913abcc32244b00c</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>ca8b51171380e200913abcc32244b00c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>d384db7a4f04a200298deed18110c752</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone3</dropzone>
+                <offset>1</offset>
+                <page display_value="Continuous Integration">675b1dd31380e200913abcc32244b0d9</page>
+                <summary/>
+                <sys_created_by>reuben.stump</sys_created_by>
+                <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                <sys_id>c28b11171380e200913abcc32244b0fa</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>reuben.stump</sys_updated_by>
+                <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">c28b11171380e200913abcc32244b0fa</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>028b11171380e200913abcc32244b0fb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">c28b11171380e200913abcc32244b0fa</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>068b11171380e200913abcc32244b0fa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>fc6f833a4f04a200298deed18110c737</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">c28b11171380e200913abcc32244b0fa</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>4e8b11171380e200913abcc32244b0fa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">c28b11171380e200913abcc32244b0fa</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>868b11171380e200913abcc32244b0fb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>43f75fba4f04a200298deed18110c715</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">c28b11171380e200913abcc32244b0fa</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>8a8b11171380e200913abcc32244b0fa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">c28b11171380e200913abcc32244b0fa</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>c28b11171380e200913abcc32244b0fb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>Lines of Code Changed Today</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">c28b11171380e200913abcc32244b0fa</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>c68b11171380e200913abcc32244b0fa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone3</dropzone>
+                <offset>3</offset>
+                <page display_value="Continuous Integration">675b1dd31380e200913abcc32244b0d9</page>
+                <summary/>
+                <sys_created_by>reuben.stump</sys_created_by>
+                <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                <sys_id>c28b11171380e200913abcc32244b0fd</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>reuben.stump</sys_updated_by>
+                <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">c28b11171380e200913abcc32244b0fd</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>068b11171380e200913abcc32244b0fd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>83ef833a4f04a200298deed18110c73f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">c28b11171380e200913abcc32244b0fd</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>068b51171380e200913abcc32244b00a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">c28b11171380e200913abcc32244b0fd</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>428b51171380e200913abcc32244b00a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">c28b11171380e200913abcc32244b0fd</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>4e8b51171380e200913abcc32244b00a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>43f75fba4f04a200298deed18110c715</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">c28b11171380e200913abcc32244b0fd</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>8a8b51171380e200913abcc32244b00a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>Lines of Code Changed 30 Days Ago</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">c28b11171380e200913abcc32244b0fd</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>c68b11171380e200913abcc32244b0fd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">c28b11171380e200913abcc32244b0fd</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>c68b51171380e200913abcc32244b00a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>1</offset>
+                <page display_value="Continuous Integration">675b1dd31380e200913abcc32244b0d9</page>
+                <summary/>
+                <sys_created_by>reuben.stump</sys_created_by>
+                <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                <sys_id>ca8b11171380e200913abcc32244b0e9</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>reuben.stump</sys_updated_by>
+                <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ca8b11171380e200913abcc32244b0e9</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>0a8b11171380e200913abcc32244b0ea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ca8b11171380e200913abcc32244b0e9</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>0e8b11171380e200913abcc32244b0e9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>3ddcc3f64f04a200298deed18110c791</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ca8b11171380e200913abcc32244b0e9</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>428b11171380e200913abcc32244b0eb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>43f75fba4f04a200298deed18110c715</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ca8b11171380e200913abcc32244b0e9</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>468b11171380e200913abcc32244b0ea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ca8b11171380e200913abcc32244b0e9</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>828b11171380e200913abcc32244b0ea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ca8b11171380e200913abcc32244b0e9</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>8e8b11171380e200913abcc32244b0ea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>Commits Today</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ca8b11171380e200913abcc32244b0e9</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>ca8b11171380e200913abcc32244b0ea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ca8b11171380e200913abcc32244b0e9</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:41</sys_created_on>
+                        <sys_id>ce8b11171380e200913abcc32244b0e9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:41</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone3</dropzone>
+                <offset>2</offset>
+                <page display_value="Continuous Integration">675b1dd31380e200913abcc32244b0d9</page>
+                <summary/>
+                <sys_created_by>reuben.stump</sys_created_by>
+                <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                <sys_id>ca8b11171380e200913abcc32244b0fb</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>reuben.stump</sys_updated_by>
+                <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ca8b11171380e200913abcc32244b0fb</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>0a8b11171380e200913abcc32244b0fc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ca8b11171380e200913abcc32244b0fb</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>0e8b11171380e200913abcc32244b0fb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>279f033a4f04a200298deed18110c757</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ca8b11171380e200913abcc32244b0fb</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>468b11171380e200913abcc32244b0fc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ca8b11171380e200913abcc32244b0fb</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>828b11171380e200913abcc32244b0fc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ca8b11171380e200913abcc32244b0fb</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>8e8b11171380e200913abcc32244b0fc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>43f75fba4f04a200298deed18110c715</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ca8b11171380e200913abcc32244b0fb</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>ca8b11171380e200913abcc32244b0fc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>Lines of Code Changed 7 Days Ago</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ca8b11171380e200913abcc32244b0fb</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>ce8b11171380e200913abcc32244b0fb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>1</offset>
+                <page display_value="Continuous Integration">675b1dd31380e200913abcc32244b0d9</page>
+                <summary/>
+                <sys_created_by>reuben.stump</sys_created_by>
+                <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                <sys_id>ce8b11171380e200913abcc32244b0f1</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>reuben.stump</sys_updated_by>
+                <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ce8b11171380e200913abcc32244b0f1</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>028b11171380e200913abcc32244b0f2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>56a19f3a4f04a200298deed18110c702</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ce8b11171380e200913abcc32244b0f1</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>0e8b11171380e200913abcc32244b0f2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ce8b11171380e200913abcc32244b0f1</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>468b11171380e200913abcc32244b0f3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>43f75fba4f04a200298deed18110c715</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ce8b11171380e200913abcc32244b0f1</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>4a8b11171380e200913abcc32244b0f2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ce8b11171380e200913abcc32244b0f1</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>828b11171380e200913abcc32244b0f3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>Builds Today</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ce8b11171380e200913abcc32244b0f1</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>868b11171380e200913abcc32244b0f2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ce8b11171380e200913abcc32244b0f1</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>c28b11171380e200913abcc32244b0f2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2016-06-21 14:51:42">ce8b11171380e200913abcc32244b0f1</portal_section>
+                        <sys_created_by>reuben.stump</sys_created_by>
+                        <sys_created_on>2016-06-21 18:51:42</sys_created_on>
+                        <sys_id>ce8b11171380e200913abcc32244b0f2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>reuben.stump</sys_updated_by>
+                        <sys_updated_on>2016-06-21 18:51:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>
