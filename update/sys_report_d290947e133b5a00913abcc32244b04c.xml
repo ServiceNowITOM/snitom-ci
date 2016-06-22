@@ -20,7 +20,7 @@
         <chart_width/>
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
-        <colors>#A50F15,#00FF00,#A9A9A9,#000000,#FFFF00</colors>
+        <colors>#CC0000,#27AE60,#3399FF,#000000,#FFFF00</colors>
         <column>duration</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
@@ -86,7 +86,7 @@
         <sys_created_on>2016-06-07 13:51:39</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>d290947e133b5a00913abcc32244b04c</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Average Build Job Duration</sys_name>
         <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
         <sys_policy/>
@@ -94,7 +94,7 @@
         <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
         <sys_update_name>sys_report_d290947e133b5a00913abcc32244b04c</sys_update_name>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-22 16:19:49</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:54:39</sys_updated_on>
         <table>x_snc_itom_ci_jenkins_builds</table>
         <title>Average Build Job Duration</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
