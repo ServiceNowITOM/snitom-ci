@@ -20,8 +20,8 @@
         <chart_width/>
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
-        <colors/>
-        <column>build_id</column>
+        <colors>#A50F15,#00FF00,#A9A9A9,#000000,#FFFF00</colors>
+        <column>duration</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
         <custom_chart_size>false</custom_chart_size>
@@ -34,8 +34,8 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>timestamp</field>
         <field_list/>
-        <filter table="x_snc_itom_ci_jenkins_builds">^GROUPBYtimestamp^TRENDBYsys_created_on,date<item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="timestamp"/>
-            <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="sys_created_on,date"/>
+        <filter table="x_snc_itom_ci_jenkins_builds">^GROUPBYtimestamp^TRENDBYcommit.repository,date<item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="timestamp"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="commit.repository,date"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -69,7 +69,7 @@
         <sc_stackby_item_id/>
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
-        <set_color>color_palette</set_color>
+        <set_color>several_colors</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -86,22 +86,22 @@
         <sys_created_on>2016-06-07 13:51:39</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>d290947e133b5a00913abcc32244b04c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Build Job Duration</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Average Build Job Duration</sys_name>
         <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
         <sys_update_name>sys_report_d290947e133b5a00913abcc32244b04c</sys_update_name>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-09 14:07:03</sys_updated_on>
+        <sys_updated_by>reuben.stump</sys_updated_by>
+        <sys_updated_on>2016-06-22 14:38:53</sys_updated_on>
         <table>x_snc_itom_ci_jenkins_builds</table>
-        <title>Build Job Duration</title>
+        <title>Average Build Job Duration</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>sys_created_on</trend_field>
-        <type>line</type>
+        <trend_field>commit.repository</trend_field>
+        <type>bar</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>
         <use_color_palette>true</use_color_palette>
@@ -127,7 +127,7 @@
         <y_axis_label_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_label_color>
         <y_axis_label_size>11</y_axis_label_size>
         <y_axis_opposite>false</y_axis_opposite>
-        <y_axis_title/>
+        <y_axis_title>Average Duration (Milliseconds)</y_axis_title>
         <y_axis_title_bold>true</y_axis_title_bold>
         <y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color>
         <y_axis_title_size>12</y_axis_title_size>

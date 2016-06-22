@@ -57,6 +57,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>credential</element>
+            <position>4</position>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-22 14:12:54</sys_created_on>
+            <sys_id>b34565631308e200913abcc32244b00f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_github_repositories" sys_domain="global" view="Default view">919f5b924fb31a00298deed18110c730</sys_ui_section>
+            <sys_updated_by>reuben.stump</sys_updated_by>
+            <sys_updated_on>2016-06-22 14:12:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

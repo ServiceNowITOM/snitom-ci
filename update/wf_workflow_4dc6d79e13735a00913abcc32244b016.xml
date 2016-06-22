@@ -2,7 +2,7 @@
 <record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"ends":["dbac47db13fb1200913abcc32244b02d"],"subflows":[],"stages":{},"activities":{}}</activity_stages>
+        <activity_stages>{"ends":["170e792f1308e200913abcc32244b0a7"],"subflows":[],"stages":{},"activities":{}}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -10,10 +10,10 @@
         <condition/>
         <condition_type>run_match</condition_type>
         <description/>
-        <expected_sequences>dfac47db13fb1200913abcc32244b02d,57ac47db13fb1200913abcc32244b02e,93ac47db13fb1200913abcc32244b02d,9fac47db13fb1200913abcc32244b02a,9fac47db13fb1200913abcc32244b02e,d7ac47db13fb1200913abcc32244b02b,13ac47db13fb1200913abcc32244b02c,5bac47db13fb1200913abcc32244b02c,dbac47db13fb1200913abcc32244b02d</expected_sequences>
+        <expected_sequences>1b0e792f1308e200913abcc32244b0a7,9f0e792f1308e200913abcc32244b0a7,5b0e792f1308e200913abcc32244b0a9,130e792f1308e200913abcc32244b0a9,5b0e792f1308e200913abcc32244b0a5,930e792f1308e200913abcc32244b0a6,db0e792f1308e200913abcc32244b0a6,d70e792f1308e200913abcc32244b0a8,170e792f1308e200913abcc32244b0a7</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>dfac47db13fb1200913abcc32244b02d,57ac47db13fb1200913abcc32244b02e,93ac47db13fb1200913abcc32244b02d,9fac47db13fb1200913abcc32244b02a,9fac47db13fb1200913abcc32244b02e,d7ac47db13fb1200913abcc32244b02b,13ac47db13fb1200913abcc32244b02c,5bac47db13fb1200913abcc32244b02c,dbac47db13fb1200913abcc32244b02d</full_sequences>
+        <full_sequences>1b0e792f1308e200913abcc32244b0a7,9f0e792f1308e200913abcc32244b0a7,5b0e792f1308e200913abcc32244b0a9,130e792f1308e200913abcc32244b0a9,5b0e792f1308e200913abcc32244b0a5,930e792f1308e200913abcc32244b0a6,db0e792f1308e200913abcc32244b0a6,d70e792f1308e200913abcc32244b0a8,170e792f1308e200913abcc32244b0a7</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>CI Post Build WebHook</name>
@@ -28,13 +28,13 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">dfac47db13fb1200913abcc32244b02d</start>
+        <start display_value="Begin">1b0e792f1308e200913abcc32244b0a7</start>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>57ac47db13fb1200913abcc32244b02a</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>130e792f1308e200913abcc32244b0a5</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:52:22</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:05:27</sys_updated_on>
         <table>global</table>
         <timezone/>
         <validated>true</validated>
@@ -82,20 +82,20 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>dfac47db13fb1200913abcc32244b02d</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>1b0e792f1308e200913abcc32244b0a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="CI Post Build WebHook">57ac47db13fb1200913abcc32244b02a</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">130e792f1308e200913abcc32244b0a5</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">dfac47db13fb1200913abcc32244b02d</activity>
+        <activity display_value="Begin">1b0e792f1308e200913abcc32244b0a7</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -109,11 +109,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>93ac47db13fb1200913abcc32244b02e</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>db0e792f1308e200913abcc32244b0a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -131,29 +131,29 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>13ac47db13fb1200913abcc32244b02c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>db0e792f1308e200913abcc32244b0a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:51:17</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="CI Post Build WebHook">57ac47db13fb1200913abcc32244b02a</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">130e792f1308e200913abcc32244b0a5</workflow_version>
         <x>562</x>
         <y>558</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>13ac47db13fb1200913abcc32244b02c</document_key>
+        <document_key>db0e792f1308e200913abcc32244b0a6</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>93ac47db13fb1200913abcc32244b02c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>5f0e792f1308e200913abcc32244b0a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:51:17</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
         <value>//https://${server}/job/${Job}/${JobID}/api/json&#13;
 var restMessage = new sn_ws.RESTMessageV2();&#13;
 var user = workflow.scratchpad.build_User;&#13;
@@ -171,7 +171,7 @@ workflow.scratchpad.build_json = global.JSON.parse(messageBody);</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Call Jenkins to get build status">13ac47db13fb1200913abcc32244b02c</activity>
+        <activity display_value="Call Jenkins to get build status">db0e792f1308e200913abcc32244b0a6</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -185,11 +185,11 @@ workflow.scratchpad.build_json = global.JSON.parse(messageBody);</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>97ac47db13fb1200913abcc32244b02c</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>530e792f1308e200913abcc32244b0a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -207,15 +207,15 @@ workflow.scratchpad.build_json = global.JSON.parse(messageBody);</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>dbac47db13fb1200913abcc32244b02d</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>170e792f1308e200913abcc32244b0a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="CI Post Build WebHook">57ac47db13fb1200913abcc32244b02a</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">130e792f1308e200913abcc32244b0a5</workflow_version>
         <x>880</x>
         <y>723</y>
     </wf_activity>
@@ -235,29 +235,29 @@ workflow.scratchpad.build_json = global.JSON.parse(messageBody);</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>9fac47db13fb1200913abcc32244b02a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>130e792f1308e200913abcc32244b0a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:34</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="CI Post Build WebHook">57ac47db13fb1200913abcc32244b02a</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">130e792f1308e200913abcc32244b0a5</workflow_version>
         <x>244</x>
         <y>289</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9fac47db13fb1200913abcc32244b02a</document_key>
+        <document_key>130e792f1308e200913abcc32244b0a9</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>13ac47db13fb1200913abcc32244b02b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>930e792f1308e200913abcc32244b0a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:34</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
         <value>//Build Rest Message&#13;
 var restMessage = new sn_ws.RESTMessageV2();&#13;
 var user = workflow.scratchpad.scm_User;&#13;
@@ -279,7 +279,7 @@ workflow.scratchpad.commit_json = global.JSON.parse(messageBody);</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Fetch Commit from SCM">9fac47db13fb1200913abcc32244b02a</activity>
+        <activity display_value="Fetch Commit from SCM">130e792f1308e200913abcc32244b0a9</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -293,11 +293,11 @@ workflow.scratchpad.commit_json = global.JSON.parse(messageBody);</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>17ac47db13fb1200913abcc32244b02b</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>970e792f1308e200913abcc32244b0a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -315,29 +315,29 @@ workflow.scratchpad.commit_json = global.JSON.parse(messageBody);</value>
         <pinned_version/>
         <stage/>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>9fac47db13fb1200913abcc32244b02e</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>5b0e792f1308e200913abcc32244b0a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="CI Post Build WebHook">57ac47db13fb1200913abcc32244b02a</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">130e792f1308e200913abcc32244b0a5</workflow_version>
         <x>357</x>
         <y>376</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9fac47db13fb1200913abcc32244b02e</document_key>
+        <document_key>5b0e792f1308e200913abcc32244b0a5</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>13ac47db13fb1200913abcc32244b02f</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>db0e792f1308e200913abcc32244b0a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
         <value>//workflow.scratchpad.repo_sysID&#13;
 &#13;
 var workingBranchName = workflow.inputs.u_scm_branch;&#13;
@@ -360,7 +360,7 @@ if (!branchname){&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Get Branch From Commit">9fac47db13fb1200913abcc32244b02e</activity>
+        <activity display_value="Get Branch From Commit">5b0e792f1308e200913abcc32244b0a5</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -374,11 +374,11 @@ if (!branchname){&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>17ac47db13fb1200913abcc32244b02f</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>df0e792f1308e200913abcc32244b0a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -396,46 +396,48 @@ if (!branchname){&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>93ac47db13fb1200913abcc32244b02d</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>5b0e792f1308e200913abcc32244b0a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="CI Post Build WebHook">57ac47db13fb1200913abcc32244b02a</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">130e792f1308e200913abcc32244b0a5</workflow_version>
         <x>129</x>
         <y>197</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>93ac47db13fb1200913abcc32244b02d</document_key>
+        <document_key>5b0e792f1308e200913abcc32244b0a9</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>17ac47db13fb1200913abcc32244b02d</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>db0e792f1308e200913abcc32244b0a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
         <value>//x_snc_itom_ci_jenkins_credentials&#13;
 var juser;&#13;
 var jpass;&#13;
-gs.info("guthub passes url ****  :" +workflow.inputs.u_scm_url);&#13;
-var GL = new GlideRecord('x_snc_itom_ci_github_credentials');&#13;
-GL.addQuery('repository.url' ,workflow.inputs.u_scm_url);&#13;
+&#13;
+gs.info("github passes url ****  :" +workflow.inputs.u_scm_url);&#13;
+var GL = new GlideRecord('x_snc_itom_ci_github_repositories');&#13;
+GL.addQuery('url' ,workflow.inputs.u_scm_url);&#13;
 GL.query();&#13;
 while (GL.next()) {&#13;
-	juser = GL.user;&#13;
-	var pass = GL.password;&#13;
+	juser = GL.credential.user;&#13;
+	var pass = GL.credential.password;&#13;
 	//var Encrypter = new GlideEncrypter(); &#13;
 	//var encrypted = GL.password; &#13;
 	//jpass = Encrypter.decrypt(encrypted);&#13;
-	jpass = GL.password.getDecryptedValue();&#13;
+	jpass = GL.credential.password.getDecryptedValue();&#13;
+	gs.info("USER:" + GL.credential.user);&#13;
 	workflow.scratchpad.scm_User = juser;&#13;
 	workflow.scratchpad.scm_Password = jpass;&#13;
-	workflow.scratchpad.repo_sysID = GL.repository.sys_id;&#13;
+	workflow.scratchpad.repo_sysID = GL.sys_id;&#13;
 }&#13;
 &#13;
 &#13;
@@ -443,7 +445,7 @@ while (GL.next()) {&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Get GITHUB Creds">93ac47db13fb1200913abcc32244b02d</activity>
+        <activity display_value="Get GITHUB Creds">5b0e792f1308e200913abcc32244b0a9</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -457,11 +459,11 @@ while (GL.next()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>1bac47db13fb1200913abcc32244b02d</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>df0e792f1308e200913abcc32244b0a9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -479,29 +481,29 @@ while (GL.next()) {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>57ac47db13fb1200913abcc32244b02e</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>9f0e792f1308e200913abcc32244b0a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="CI Post Build WebHook">57ac47db13fb1200913abcc32244b02a</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">130e792f1308e200913abcc32244b0a5</workflow_version>
         <x>27</x>
         <y>107</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>57ac47db13fb1200913abcc32244b02e</document_key>
+        <document_key>9f0e792f1308e200913abcc32244b0a7</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>d7ac47db13fb1200913abcc32244b02e</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>130e792f1308e200913abcc32244b0a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
         <value>//x_snc_itom_ci_jenkins_credentials&#13;
 var juser;&#13;
 var jpass;&#13;
@@ -523,7 +525,7 @@ while (GL.next()) {&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Get Jenkins Creds">57ac47db13fb1200913abcc32244b02e</activity>
+        <activity display_value="Get Jenkins Creds">9f0e792f1308e200913abcc32244b0a7</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -537,11 +539,11 @@ while (GL.next()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>dbac47db13fb1200913abcc32244b02e</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>170e792f1308e200913abcc32244b0a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -559,29 +561,29 @@ while (GL.next()) {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>5bac47db13fb1200913abcc32244b02c</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>d70e792f1308e200913abcc32244b0a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="CI Post Build WebHook">57ac47db13fb1200913abcc32244b02a</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">130e792f1308e200913abcc32244b0a5</workflow_version>
         <x>783</x>
         <y>626</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>5bac47db13fb1200913abcc32244b02c</document_key>
+        <document_key>d70e792f1308e200913abcc32244b0a8</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>dbac47db13fb1200913abcc32244b02c</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>5b0e792f1308e200913abcc32244b0a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
         <value>gs.info("Commit ID:"+workflow.scratchpad.commitID);&#13;
 &#13;
 //Get Commit from DB&#13;
@@ -664,7 +666,7 @@ while (BuildDB.next()) {&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Write Build To Table">5bac47db13fb1200913abcc32244b02c</activity>
+        <activity display_value="Write Build To Table">d70e792f1308e200913abcc32244b0a8</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -678,11 +680,11 @@ while (BuildDB.next()) {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>dfac47db13fb1200913abcc32244b02c</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>5f0e792f1308e200913abcc32244b0a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -700,71 +702,62 @@ while (BuildDB.next()) {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>d7ac47db13fb1200913abcc32244b02b</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>930e792f1308e200913abcc32244b0a6</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:51:00</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:04:41</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="CI Post Build WebHook">57ac47db13fb1200913abcc32244b02a</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">130e792f1308e200913abcc32244b0a5</workflow_version>
         <x>460</x>
         <y>465</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d7ac47db13fb1200913abcc32244b02b</document_key>
+        <document_key>930e792f1308e200913abcc32244b0a6</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>5bac47db13fb1200913abcc32244b02b</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>170e792f1308e200913abcc32244b0a6</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:51:00</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:04:41</sys_updated_on>
         <value>//workflow.scratchpad.branch_sysID&#13;
 &#13;
-function snTimeFromISOTime(s) {&#13;
-	var bits = s.split(/[-TZ:+]/g);&#13;
-	var d = new Date(&#13;
-		parseInt(bits[0]), &#13;
-		parseInt(bits[1]-1),&#13;
-		parseInt(bits[2]));&#13;
-	d.setHours(&#13;
-		parseInt(bits[3]), &#13;
-		parseInt(bits[4]), &#13;
-		parseInt(bits[5]));&#13;
+function ISODateTimeToGlideDateTime(s) {&#13;
+    var parts = s.split(/[-TZ:+]/g);&#13;
+&#13;
+    dt = '';&#13;
+	dt += parts[0];&#13;
+	dt += "-";&#13;
+	dt += parts[1];&#13;
+	dt += "-";&#13;
+	dt += parts[2];&#13;
+	dt += " ";&#13;
+	dt += parts[3];&#13;
+	dt += ":";&#13;
+	dt += parts[4];&#13;
+	dt += ":";&#13;
+	dt += parts[5];&#13;
 	&#13;
-	// Get supplied time zone offset in minutes&#13;
-//	var offsetMinutes = parseInt(bits[6]) * 60 + parseInt(bits[7]);&#13;
-//	var sign = /\d\d-\d\d:\d\d$/.test(s)? '-' : '+';&#13;
-&#13;
-	// Apply the sign&#13;
-//	offsetMinutes = 0 + (sign == '-'? -1 * offsetMinutes : offsetMinutes);&#13;
-&#13;
-	// Apply offset and local timezone&#13;
-//	d.setMinutes(d.getMinutes() - offsetMinutes - d.getTimezoneOffset());&#13;
+	// Calculate offset in seconds&#13;
+	sign = /\d\d-\d\d:\d\d$/.test(s)? '-' : '+';&#13;
+	if (parts[6] &amp;&amp; parts[7]) {&#13;
+		offset = parseInt(parts[6] * 60 + parseInt(parts[7]));&#13;
+		offset = 0 + (sign == '-' ? -1 * offset : offset);&#13;
+	} else {&#13;
+		offset = 0;&#13;
+	}&#13;
 	&#13;
-&#13;
-	// d is now a local time equivalent to the supplied time&#13;
-	var dt_string = '';&#13;
-	dt_string += d.getFullYear();&#13;
-	dt_string += "-";&#13;
-	dt_string += d.getMonth() + 1;&#13;
-	dt_string += "-";&#13;
-	dt_string += d.getDate();&#13;
-	dt_string += " ";&#13;
-	dt_string += d.getHours();&#13;
-	dt_string += ":";&#13;
-	dt_string += d.getMinutes();&#13;
-	dt_string += ":";&#13;
-	dt_string += d.getSeconds();&#13;
+	// Instantiate GlideDateTime object&#13;
+	glideDT = new GlideDateTime(dt);&#13;
+	glideDT.addSeconds(offset);&#13;
 	&#13;
-&#13;
-	return dt_string;&#13;
+	return glideDT;&#13;
 }&#13;
-&#13;
 &#13;
 &#13;
 var branch_CommitsDB = new GlideRecord('x_snc_itom_ci_github_commits');&#13;
@@ -786,8 +779,8 @@ if (!branch_commits_InDB){&#13;
 	var commits_return_json = workflow.scratchpad.commit_json;&#13;
 	&#13;
 	// Test some time-dates&#13;
-	gs.info("--- initial: " + commits_return_json.commit.author.date + " ---");&#13;
-	gs.info("--- convert: " + snTimeFromISOTime(commits_return_json.commit.author.date) + " ---");&#13;
+	//gs.info("--- initial: " + commits_return_json.commit.author.date + " ---");&#13;
+	//gs.info("--- convert: " + snTimeFromISOTime(commits_return_json.commit.author.date) + " ---");&#13;
 	&#13;
 	//add values to work with here. &#13;
 	var branch_sysID = workflow.scratchpad.branch_sysID;&#13;
@@ -804,11 +797,10 @@ if (!branch_commits_InDB){&#13;
 	repo_commits.branch = branch_sysID;&#13;
 	repo_commits.change_additions = commits_return_json.stats.additions;&#13;
 	repo_commits.change_deletions = commits_return_json.stats.deletions;&#13;
-	gs.info("GITDATE="+snTimeFromISOTime(commits_return_json.commit.author.date));&#13;
 	if (workflow.inputs.u_mergeid){&#13;
 		repo_commits.u_pull_request = workflow.inputs.u_mergeid;&#13;
 	}&#13;
-	repo_commits.commit_date = snTimeFromISOTime(commits_return_json.commit.author.date);&#13;
+	repo_commits.commit_date = ISODateTimeToGlideDateTime(commits_return_json.commit.author.date);&#13;
 	repo_commits.commiter_email = commits_return_json.commit.committer.email;&#13;
 	repo_commits.commiter = commits_return_json.commit.committer.name;&#13;
 	repo_commits.repository = repo_sysID;&#13;
@@ -878,7 +870,7 @@ rec2.update();&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Write Commit to Table">d7ac47db13fb1200913abcc32244b02b</activity>
+        <activity display_value="Write Commit to Table">930e792f1308e200913abcc32244b0a6</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -892,99 +884,99 @@ rec2.update();&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>5fac47db13fb1200913abcc32244b02b</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>1b0e792f1308e200913abcc32244b0a6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">17ac47db13fb1200913abcc32244b02b</condition>
-        <from display_value="Fetch Commit from SCM">9fac47db13fb1200913abcc32244b02a</from>
+        <condition display_value="Always">970e792f1308e200913abcc32244b0a9</condition>
+        <from display_value="Fetch Commit from SCM">130e792f1308e200913abcc32244b0a9</from>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>53ac47db13fb1200913abcc32244b030</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>130e792f1308e200913abcc32244b0ab</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
-        <to display_value="Get Branch From Commit">9fac47db13fb1200913abcc32244b02e</to>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
+        <to display_value="Get Branch From Commit">5b0e792f1308e200913abcc32244b0a5</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">97ac47db13fb1200913abcc32244b02c</condition>
-        <from display_value="Call Jenkins to get build status">13ac47db13fb1200913abcc32244b02c</from>
+        <condition display_value="Always">db0e792f1308e200913abcc32244b0a7</condition>
+        <from display_value="Begin">1b0e792f1308e200913abcc32244b0a7</from>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>57ac47db13fb1200913abcc32244b030</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>170e792f1308e200913abcc32244b0ab</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
-        <to display_value="Write Build To Table">5bac47db13fb1200913abcc32244b02c</to>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
+        <to display_value="Get Jenkins Creds">9f0e792f1308e200913abcc32244b0a7</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">17ac47db13fb1200913abcc32244b02f</condition>
-        <from display_value="Get Branch From Commit">9fac47db13fb1200913abcc32244b02e</from>
+        <condition display_value="Always">170e792f1308e200913abcc32244b0a8</condition>
+        <from display_value="Get Jenkins Creds">9f0e792f1308e200913abcc32244b0a7</from>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>5bac47db13fb1200913abcc32244b030</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>1b0e792f1308e200913abcc32244b0aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
-        <to display_value="Write Commit to Table">d7ac47db13fb1200913abcc32244b02b</to>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
+        <to display_value="Get GITHUB Creds">5b0e792f1308e200913abcc32244b0a9</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">93ac47db13fb1200913abcc32244b02e</condition>
-        <from display_value="Begin">dfac47db13fb1200913abcc32244b02d</from>
+        <condition display_value="Always">df0e792f1308e200913abcc32244b0a5</condition>
+        <from display_value="Get Branch From Commit">5b0e792f1308e200913abcc32244b0a5</from>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>5fac47db13fb1200913abcc32244b02f</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>1f0e792f1308e200913abcc32244b0aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
-        <to display_value="Get Jenkins Creds">57ac47db13fb1200913abcc32244b02e</to>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
+        <to display_value="Write Commit to Table">930e792f1308e200913abcc32244b0a6</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">dfac47db13fb1200913abcc32244b02c</condition>
-        <from display_value="Write Build To Table">5bac47db13fb1200913abcc32244b02c</from>
+        <condition display_value="Always">1b0e792f1308e200913abcc32244b0a6</condition>
+        <from display_value="Write Commit to Table">930e792f1308e200913abcc32244b0a6</from>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>d3ac47db13fb1200913abcc32244b030</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>930e792f1308e200913abcc32244b0ab</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
-        <to display_value="End">dbac47db13fb1200913abcc32244b02d</to>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
+        <to display_value="Call Jenkins to get build status">db0e792f1308e200913abcc32244b0a6</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">5fac47db13fb1200913abcc32244b02b</condition>
-        <from display_value="Write Commit to Table">d7ac47db13fb1200913abcc32244b02b</from>
+        <condition display_value="Always">530e792f1308e200913abcc32244b0a7</condition>
+        <from display_value="Call Jenkins to get build status">db0e792f1308e200913abcc32244b0a6</from>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>d7ac47db13fb1200913abcc32244b030</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>970e792f1308e200913abcc32244b0aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
-        <to display_value="Call Jenkins to get build status">13ac47db13fb1200913abcc32244b02c</to>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
+        <to display_value="Write Build To Table">d70e792f1308e200913abcc32244b0a8</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">1bac47db13fb1200913abcc32244b02d</condition>
-        <from display_value="Get GITHUB Creds">93ac47db13fb1200913abcc32244b02d</from>
+        <condition display_value="Always">df0e792f1308e200913abcc32244b0a9</condition>
+        <from display_value="Get GITHUB Creds">5b0e792f1308e200913abcc32244b0a9</from>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>dbac47db13fb1200913abcc32244b02f</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>9b0e792f1308e200913abcc32244b0aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
-        <to display_value="Fetch Commit from SCM">9fac47db13fb1200913abcc32244b02a</to>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
+        <to display_value="Fetch Commit from SCM">130e792f1308e200913abcc32244b0a9</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">dbac47db13fb1200913abcc32244b02e</condition>
-        <from display_value="Get Jenkins Creds">57ac47db13fb1200913abcc32244b02e</from>
+        <condition display_value="Always">5f0e792f1308e200913abcc32244b0a8</condition>
+        <from display_value="Write Build To Table">d70e792f1308e200913abcc32244b0a8</from>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>dfac47db13fb1200913abcc32244b02f</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>9f0e792f1308e200913abcc32244b0aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
-        <to display_value="Get GITHUB Creds">93ac47db13fb1200913abcc32244b02d</to>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
+        <to display_value="End">170e792f1308e200913abcc32244b0a7</to>
     </wf_transition>
     <var_dictionary action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1575,14 +1567,14 @@ rec2.update();&#13;
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>reuben.stump</sys_created_by>
-        <sys_created_on>2016-06-09 16:50:20</sys_created_on>
-        <sys_id>97ac47db13fb1200913abcc32244b02a</sys_id>
+        <sys_created_on>2016-06-22 16:01:00</sys_created_on>
+        <sys_id>530e792f1308e200913abcc32244b0a5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 16:50:20</sys_updated_on>
-        <workflow_version display_value="CI Post Build WebHook">57ac47db13fb1200913abcc32244b02a</workflow_version>
+        <sys_updated_on>2016-06-22 16:01:00</sys_updated_on>
+        <workflow_version display_value="CI Post Build WebHook">130e792f1308e200913abcc32244b0a5</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=4dc6d79e13735a00913abcc32244b016^sys_id!=57ac47db13fb1200913abcc32244b02a">
+    <wf_workflow_version action="update_multiple" query="workflow=4dc6d79e13735a00913abcc32244b016^sys_id!=130e792f1308e200913abcc32244b0a5">
         <published>false</published>
     </wf_workflow_version>
 </record_update>
