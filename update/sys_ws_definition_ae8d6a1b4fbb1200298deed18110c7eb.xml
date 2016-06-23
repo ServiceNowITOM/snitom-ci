@@ -18,7 +18,7 @@
         <sys_class_name>sys_ws_definition</sys_class_name>
         <sys_created_by>reuben.stump</sys_created_by>
         <sys_created_on>2016-06-09 14:34:31</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ae8d6a1b4fbb1200298deed18110c7eb</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>DockerHub Webhook</sys_name>

@@ -21,7 +21,7 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>shaun.millin</sys_created_by>
         <sys_created_on>2016-06-06 17:40:56</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>7238379a13b35a00913abcc32244b0e2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>GitHub Commit Files</sys_name>

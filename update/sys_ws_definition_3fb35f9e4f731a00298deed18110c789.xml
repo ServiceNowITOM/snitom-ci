@@ -18,7 +18,7 @@
         <sys_class_name>sys_ws_definition</sys_class_name>
         <sys_created_by>reuben.stump</sys_created_by>
         <sys_created_on>2016-06-06 14:47:27</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>3fb35f9e4f731a00298deed18110c789</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Jenkins Webhook</sys_name>

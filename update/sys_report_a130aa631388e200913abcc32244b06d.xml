@@ -34,7 +34,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>branch</field>
         <field_list/>
-        <filter table="x_snc_itom_ci_github_commits">commit_dateON2016-06-22@javascript:gs.dateGenerate('2016-06-22','start')@javascript:gs.dateGenerate('2016-06-22','end')^EQ^GROUPBYbranch^TRENDBYcommit_date,year<item endquery="false" field="commit_date" goto="false" newquery="false" operator="ON" or="false" value="2016-06-22@javascript:gs.dateGenerate('2016-06-22','start')@javascript:gs.dateGenerate('2016-06-22','end')"/>
+        <filter table="x_snc_itom_ci_github_commits">commit_dateON2016-06-23@javascript:gs.dateGenerate('2016-06-23','start')@javascript:gs.dateGenerate('2016-06-23','end')^EQ^GROUPBYbranch^TRENDBYcommit_date,year<item endquery="false" field="commit_date" goto="false" newquery="false" operator="ON" or="false" value="2016-06-23@javascript:gs.dateGenerate('2016-06-23','start')@javascript:gs.dateGenerate('2016-06-23','end')"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
             <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="branch"/>
             <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="commit_date,year"/>
@@ -88,7 +88,7 @@
         <sys_created_on>2016-06-22 18:30:15</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>a130aa631388e200913abcc32244b06d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Lines of Code Changed Today (D)</sys_name>
         <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
         <sys_policy/>
@@ -96,7 +96,7 @@
         <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
         <sys_update_name>sys_report_a130aa631388e200913abcc32244b06d</sys_update_name>
         <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-22 18:57:22</sys_updated_on>
+        <sys_updated_on>2016-06-23 15:13:56</sys_updated_on>
         <table>x_snc_itom_ci_github_commits</table>
         <title>Lines of Code Changed Today (D)</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

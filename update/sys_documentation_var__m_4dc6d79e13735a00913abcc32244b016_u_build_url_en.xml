@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>shaun.millin</sys_created_by>
             <sys_created_on>2016-06-06 16:18:36</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>09a8e35613b35a00913abcc32244b0d4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>build_url</sys_name>

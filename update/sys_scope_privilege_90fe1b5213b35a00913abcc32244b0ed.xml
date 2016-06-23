@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>shaun.millin</sys_created_by>
         <sys_created_on>2016-06-06 15:36:13</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>90fe1b5213b35a00913abcc32244b0ed</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>ScopedGlideElement</sys_name>

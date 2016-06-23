@@ -51,8 +51,8 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>reuben.stump</sys_created_by>
         <sys_created_on>2016-06-09 14:14:18</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>25e8eedb13bb1200913abcc32244b064</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3dff2eeb1388e200913abcc32244b0fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Description</sys_name>
         <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
@@ -60,8 +60,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_itom_ci_dockerhub_repositories_description</sys_update_name>
-        <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-09 14:14:18</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2016-06-22 19:39:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

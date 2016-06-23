@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>shaun.millin</sys_created_by>
             <sys_created_on>2016-06-06 16:16:14</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>2e18a35613b35a00913abcc32244b0fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>scm_url</sys_name>

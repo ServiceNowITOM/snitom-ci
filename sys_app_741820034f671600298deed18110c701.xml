@@ -22,14 +22,14 @@
         <sys_created_by>reuben.stump</sys_created_by>
         <sys_created_on>2016-05-26 23:57:00</sys_created_on>
         <sys_id>741820034f671600298deed18110c701</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-05-26 23:57:00</sys_updated_on>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>shaun.millin</sys_updated_by>
+        <sys_updated_on>2016-06-23 15:38:33</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>1.1.0</version>
     </sys_app>
 </record_update>

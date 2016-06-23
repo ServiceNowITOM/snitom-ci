@@ -86,7 +86,7 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>shaun.millin</sys_created_by>
         <sys_created_on>2016-06-20 13:52:16</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ca6d0bf64f04a200298deed18110c76d</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Commits Last 30 Days</sys_name>

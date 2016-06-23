@@ -4,7 +4,7 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>reuben.stump</sys_created_by>
         <sys_created_on>2016-06-09 14:23:51</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>6d2b229f13bb1200913abcc32244b0b5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_itom_ci_dockerhub_images.x_snc_itom_ci_dockerhub_images_user</sys_name>

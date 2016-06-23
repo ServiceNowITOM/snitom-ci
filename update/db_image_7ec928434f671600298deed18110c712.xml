@@ -11,7 +11,7 @@
         <sys_class_name>db_image</sys_class_name>
         <sys_created_by>reuben.stump</sys_created_by>
         <sys_created_on>2016-05-27 00:04:36</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>7ec928434f671600298deed18110c712</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>cicd_bw.png</sys_name>

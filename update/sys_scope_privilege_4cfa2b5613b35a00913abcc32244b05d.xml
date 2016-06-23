@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>guest</sys_created_by>
         <sys_created_on>2016-06-06 16:28:37</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4cfa2b5613b35a00913abcc32244b05d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>RESTResponseV2</sys_name>

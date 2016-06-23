@@ -84,7 +84,7 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>shaun.millin</sys_created_by>
         <sys_created_on>2016-06-07 13:51:39</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d290947e133b5a00913abcc32244b04c</sys_id>
         <sys_mod_count>14</sys_mod_count>
         <sys_name>Average Build Job Duration</sys_name>

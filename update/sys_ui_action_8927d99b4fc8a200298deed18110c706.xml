@@ -51,7 +51,7 @@ else{
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>shaun.millin</sys_created_by>
         <sys_created_on>2016-06-21 18:36:04</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8927d99b4fc8a200298deed18110c706</sys_id>
