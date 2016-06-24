@@ -52,7 +52,7 @@
         <sys_created_by>reuben.stump</sys_created_by>
         <sys_created_on>2016-06-03 14:58:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>e5b7774413d4e2008e4cb9304244b0ad</sys_id>
+        <sys_id>4cde99dc13982600913abcc32244b0ff</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Url</sys_name>
         <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_itom_ci_github_repositories_url</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2016-06-24 14:10:03</sys_updated_on>
+        <sys_updated_on>2016-06-24 21:40:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

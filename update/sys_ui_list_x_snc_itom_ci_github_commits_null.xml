@@ -18,6 +18,21 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>author_email</element>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 18:19:12</sys_created_on>
+            <sys_id>3b340cae4fb31a00298deed18110c755</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-24 21:40:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>change_additions</element>
             <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
             <max_value>false</max_value>
@@ -33,6 +48,36 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>author_name</element>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 18:19:12</sys_created_on>
+            <sys_id>bb340cae4fb31a00298deed18110c755</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-24 21:40:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>branch</element>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 18:19:12</sys_created_on>
+            <sys_id>3f340cae4fb31a00298deed18110c755</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-24 21:40:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>change_deletions</element>
             <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
             <max_value>false</max_value>
@@ -45,6 +90,21 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>reuben.stump</sys_updated_by>
             <sys_updated_on>2016-06-22 19:59:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>change_additions</element>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 18:19:12</sys_created_on>
+            <sys_id>bf340cae4fb31a00298deed18110c755</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-24 21:40:36</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -78,6 +138,36 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>change_deletions</element>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 18:19:12</sys_created_on>
+            <sys_id>33340cae4fb31a00298deed18110c756</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-24 21:40:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>commit_date</element>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 18:19:12</sys_created_on>
+            <sys_id>b3340cae4fb31a00298deed18110c756</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-24 21:40:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>commiter_email</element>
             <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
             <max_value>false</max_value>
@@ -93,6 +183,21 @@
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
+            <element>commiter</element>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 18:19:12</sys_created_on>
+            <sys_id>37340cae4fb31a00298deed18110c756</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-24 21:40:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
             <element>message</element>
             <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
             <max_value>false</max_value>
@@ -105,6 +210,21 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>reuben.stump</sys_updated_by>
             <sys_updated_on>2016-06-22 19:59:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>commiter_email</element>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 18:19:12</sys_created_on>
+            <sys_id>b7340cae4fb31a00298deed18110c756</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-24 21:40:36</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -135,6 +255,36 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>reuben.stump</sys_updated_by>
             <sys_updated_on>2016-06-22 19:59:35</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>message</element>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 18:19:12</sys_created_on>
+            <sys_id>3b340cae4fb31a00298deed18110c756</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-24 21:40:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>repository</element>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>reuben.stump</sys_created_by>
+            <sys_created_on>2016-06-06 18:19:12</sys_created_on>
+            <sys_id>bb340cae4fb31a00298deed18110c756</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-06-24 21:40:36</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
