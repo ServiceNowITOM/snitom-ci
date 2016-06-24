@@ -86,7 +86,7 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>shaun.millin</sys_created_by>
         <sys_created_on>2016-06-22 18:30:15</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a130aa631388e200913abcc32244b06d</sys_id>
         <sys_mod_count>5</sys_mod_count>
         <sys_name>Lines of Code Changed Today (D)</sys_name>

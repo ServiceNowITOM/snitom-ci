@@ -52,7 +52,7 @@
         <sys_created_by>reuben.stump</sys_created_by>
         <sys_created_on>2016-06-09 14:15:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>39ff6eeb1388e200913abcc32244b002</sys_id>
+        <sys_id>26b7b74413d4e2008e4cb9304244b020</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Is Trusted</sys_name>
         <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_itom_ci_dockerhub_repositories_is_trusted</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2016-06-22 19:39:20</sys_updated_on>
+        <sys_updated_on>2016-06-24 14:09:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

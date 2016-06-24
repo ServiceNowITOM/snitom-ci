@@ -86,7 +86,7 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>shaun.millin</sys_created_by>
         <sys_created_on>2016-06-22 18:28:28</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>27cfd6631388e200913abcc32244b039</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>Commits Today (D)</sys_name>

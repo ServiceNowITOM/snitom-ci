@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>build_id</element>
-            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ca54f2ef1388e200913abcc32244b0bf</list_id>
+            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e27b5ebb13002600913abcc32244b06b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +19,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>building</element>
-            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ca54f2ef1388e200913abcc32244b0bf</list_id>
+            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e27b5ebb13002600913abcc32244b06b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -34,7 +34,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>commit</element>
-            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ca54f2ef1388e200913abcc32244b0bf</list_id>
+            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e27b5ebb13002600913abcc32244b06b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -49,7 +49,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>description</element>
-            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ca54f2ef1388e200913abcc32244b0bf</list_id>
+            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e27b5ebb13002600913abcc32244b06b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -64,7 +64,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>display_name</element>
-            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ca54f2ef1388e200913abcc32244b0bf</list_id>
+            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e27b5ebb13002600913abcc32244b06b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -79,7 +79,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>duration</element>
-            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ca54f2ef1388e200913abcc32244b0bf</list_id>
+            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e27b5ebb13002600913abcc32244b06b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -94,7 +94,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>estimated_duration</element>
-            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ca54f2ef1388e200913abcc32244b0bf</list_id>
+            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e27b5ebb13002600913abcc32244b06b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -109,7 +109,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>full_display_name</element>
-            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ca54f2ef1388e200913abcc32244b0bf</list_id>
+            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e27b5ebb13002600913abcc32244b06b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
@@ -124,7 +124,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>result</element>
-            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ca54f2ef1388e200913abcc32244b0bf</list_id>
+            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e27b5ebb13002600913abcc32244b06b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
@@ -139,7 +139,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>timestamp</element>
-            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ca54f2ef1388e200913abcc32244b0bf</list_id>
+            <list_id display_value="x_snc_itom_ci_jenkins_builds" element="NULL" name="x_snc_itom_ci_jenkins_builds" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e27b5ebb13002600913abcc32244b06b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
@@ -164,7 +164,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>shaun.millin</sys_created_by>
             <sys_created_on>2016-06-23 12:48:03</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>e27b5ebb13002600913abcc32244b06b</sys_id>

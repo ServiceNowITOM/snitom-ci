@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>branch</element>
-            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ea476ef1388e200913abcc32244b0e8</list_id>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +19,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>change_additions</element>
-            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ea476ef1388e200913abcc32244b0e8</list_id>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -34,7 +34,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>change_deletions</element>
-            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ea476ef1388e200913abcc32244b0e8</list_id>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -49,7 +49,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>commit_date</element>
-            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ea476ef1388e200913abcc32244b0e8</list_id>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -64,7 +64,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>commiter</element>
-            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ea476ef1388e200913abcc32244b0e8</list_id>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -79,7 +79,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>commiter_email</element>
-            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ea476ef1388e200913abcc32244b0e8</list_id>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -94,7 +94,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>message</element>
-            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ea476ef1388e200913abcc32244b0e8</list_id>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -109,7 +109,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>repository</element>
-            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ea476ef1388e200913abcc32244b0e8</list_id>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
@@ -124,7 +124,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sha</element>
-            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ea476ef1388e200913abcc32244b0e8</list_id>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
@@ -139,7 +139,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>total_changes</element>
-            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9ea476ef1388e200913abcc32244b0e8</list_id>
+            <list_id display_value="x_snc_itom_ci_github_commits" element="NULL" name="x_snc_itom_ci_github_commits" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bbdbbabf4f84e200298deed18110c720</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>9</position>
@@ -164,7 +164,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>reuben.stump</sys_created_by>
             <sys_created_on>2016-06-23 15:09:35</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>bbdbbabf4f84e200298deed18110c720</sys_id>

@@ -2,7 +2,7 @@
 <record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"ends":["90cbdebb13002600913abcc32244b05c"],"subflows":[],"stages":{},"activities":{}}</activity_stages>
+        <activity_stages>{"ends":["104bd1d01358e2008e4cb9304244b077"],"subflows":[],"stages":{},"activities":{}}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -10,10 +10,10 @@
         <condition/>
         <condition_type>run_match</condition_type>
         <description/>
-        <expected_sequences>5ccbdebb13002600913abcc32244b057,10cbdebb13002600913abcc32244b05b,d0cbdebb13002600913abcc32244b058,d4cbdebb13002600913abcc32244b05a,1ccbdebb13002600913abcc32244b058,9ccbdebb13002600913abcc32244b059,58cbdebb13002600913abcc32244b05b,54cbdebb13002600913abcc32244b059,90cbdebb13002600913abcc32244b05c</expected_sequences>
+        <expected_sequences>944bd1d01358e2008e4cb9304244b078,9c4bd1d01358e2008e4cb9304244b079,544bd1d01358e2008e4cb9304244b079,5c4bd1d01358e2008e4cb9304244b077,9c4bd1d01358e2008e4cb9304244b075,d44bd1d01358e2008e4cb9304244b076,144bd1d01358e2008e4cb9304244b077,1c4bd1d01358e2008e4cb9304244b078,104bd1d01358e2008e4cb9304244b077</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>5ccbdebb13002600913abcc32244b057,10cbdebb13002600913abcc32244b05b,d0cbdebb13002600913abcc32244b058,d4cbdebb13002600913abcc32244b05a,1ccbdebb13002600913abcc32244b058,9ccbdebb13002600913abcc32244b059,58cbdebb13002600913abcc32244b05b,54cbdebb13002600913abcc32244b059,90cbdebb13002600913abcc32244b05c</full_sequences>
+        <full_sequences>944bd1d01358e2008e4cb9304244b078,9c4bd1d01358e2008e4cb9304244b079,544bd1d01358e2008e4cb9304244b079,5c4bd1d01358e2008e4cb9304244b077,9c4bd1d01358e2008e4cb9304244b075,d44bd1d01358e2008e4cb9304244b076,144bd1d01358e2008e4cb9304244b077,1c4bd1d01358e2008e4cb9304244b078,104bd1d01358e2008e4cb9304244b077</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>CI Post Build WebHook</name>
@@ -28,16 +28,16 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">5ccbdebb13002600913abcc32244b057</start>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:15</sys_created_on>
-        <sys_id>14cbdebb13002600913abcc32244b057</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>guest</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:56:01</sys_updated_on>
+        <start display_value="Begin">944bd1d01358e2008e4cb9304244b078</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>544bd1d01358e2008e4cb9304244b075</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:28:52</sys_updated_on>
         <table>global</table>
         <timezone/>
-        <validated>true</validated>
+        <validated>false</validated>
         <workflow display_value="CI Post Build WebHook">4dc6d79e13735a00913abcc32244b016</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
@@ -81,21 +81,21 @@
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:15</sys_created_on>
-        <sys_id>5ccbdebb13002600913abcc32244b057</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>944bd1d01358e2008e4cb9304244b078</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:15</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="CI Post Build WebHook">14cbdebb13002600913abcc32244b057</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">544bd1d01358e2008e4cb9304244b075</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">5ccbdebb13002600913abcc32244b057</activity>
+        <activity display_value="Begin">944bd1d01358e2008e4cb9304244b078</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -108,12 +108,12 @@
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:15</sys_created_on>
-        <sys_id>10cbdebb13002600913abcc32244b058</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>584bd1d01358e2008e4cb9304244b078</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:15</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -130,30 +130,30 @@
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>58cbdebb13002600913abcc32244b05b</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>144bd1d01358e2008e4cb9304244b077</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="CI Post Build WebHook">14cbdebb13002600913abcc32244b057</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">544bd1d01358e2008e4cb9304244b075</workflow_version>
         <x>562</x>
         <y>558</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>58cbdebb13002600913abcc32244b05b</document_key>
+        <document_key>144bd1d01358e2008e4cb9304244b077</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>d8cbdebb13002600913abcc32244b05b</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>944bd1d01358e2008e4cb9304244b077</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
         <value>//https://${server}/job/${Job}/${JobID}/api/json&#13;
 var restMessage = new sn_ws.RESTMessageV2();&#13;
 var user = workflow.scratchpad.build_User;&#13;
@@ -162,16 +162,18 @@ restMessage.setBasicAuth(user, password);&#13;
 restMessage.setHttpMethod("get");&#13;
 var myurl = workflow.inputs.u_build_url + 'api/json';&#13;
 restMessage.setEndpoint(myurl);&#13;
-&#13;
+//gs.info("JENKINS_URL="+myurl);&#13;
 var httpExecute = restMessage.executeAsync();&#13;
 httpExecute.waitForResponse(60);&#13;
 //var httpExecute = restMessage.execute();&#13;
 var messageBody = httpExecute.getBody();&#13;
-workflow.scratchpad.build_json = global.JSON.parse(messageBody);</value>
+workflow.scratchpad.build_json = global.JSON.parse(messageBody);&#13;
+//gs.info("MESSAGE_BODY="+messageBody);&#13;
+//gs.info("BUILD_JSON="+global.JSON.stringify(workflow.scratchpad.build_json));</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Call Jenkins to get build status">58cbdebb13002600913abcc32244b05b</activity>
+        <activity display_value="Call Jenkins to get build status">144bd1d01358e2008e4cb9304244b077</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -184,12 +186,12 @@ workflow.scratchpad.build_json = global.JSON.parse(messageBody);</value>
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>dccbdebb13002600913abcc32244b05b</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>984bd1d01358e2008e4cb9304244b077</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -206,16 +208,16 @@ workflow.scratchpad.build_json = global.JSON.parse(messageBody);</value>
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>90cbdebb13002600913abcc32244b05c</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>104bd1d01358e2008e4cb9304244b077</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="CI Post Build WebHook">14cbdebb13002600913abcc32244b057</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">544bd1d01358e2008e4cb9304244b075</workflow_version>
         <x>880</x>
         <y>723</y>
     </wf_activity>
@@ -234,30 +236,30 @@ workflow.scratchpad.build_json = global.JSON.parse(messageBody);</value>
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>d4cbdebb13002600913abcc32244b05a</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>5c4bd1d01358e2008e4cb9304244b077</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="CI Post Build WebHook">14cbdebb13002600913abcc32244b057</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">544bd1d01358e2008e4cb9304244b075</workflow_version>
         <x>244</x>
         <y>289</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d4cbdebb13002600913abcc32244b05a</document_key>
+        <document_key>5c4bd1d01358e2008e4cb9304244b077</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>58cbdebb13002600913abcc32244b05a</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>dc4bd1d01358e2008e4cb9304244b077</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
         <value>//Build Rest Message&#13;
 var restMessage = new sn_ws.RESTMessageV2();&#13;
 var user = workflow.scratchpad.scm_User;&#13;
@@ -266,11 +268,14 @@ var password = workflow.scratchpad.scm_Password;&#13;
 //get repo and owner from url&#13;
 var mysplit = workflow.inputs.u_scm_url.split('/');&#13;
 &#13;
+//gs.info("SPLIT="+mysplit);&#13;
+&#13;
 // get repository name&#13;
 var repo = mysplit[4].split(".git")[0];&#13;
-gs.info("repo name = " + repo);&#13;
+//gs.info("repo name = " + repo);&#13;
 &#13;
 var owner = mysplit[3];&#13;
+//gs.info("OWNER="+owner);&#13;
 workflow.scratchpad.repo = repo;&#13;
 workflow.scratchpad.owner = owner;&#13;
 restMessage.setBasicAuth(user, password);&#13;
@@ -283,7 +288,7 @@ workflow.scratchpad.commit_json = global.JSON.parse(messageBody);</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Fetch Commit from SCM">d4cbdebb13002600913abcc32244b05a</activity>
+        <activity display_value="Fetch Commit from SCM">5c4bd1d01358e2008e4cb9304244b077</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -296,12 +301,12 @@ workflow.scratchpad.commit_json = global.JSON.parse(messageBody);</value>
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>5ccbdebb13002600913abcc32244b05a</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>d04bd1d01358e2008e4cb9304244b078</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -318,30 +323,30 @@ workflow.scratchpad.commit_json = global.JSON.parse(messageBody);</value>
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:15</sys_created_on>
-        <sys_id>1ccbdebb13002600913abcc32244b058</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:50:42</sys_updated_on>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>9c4bd1d01358e2008e4cb9304244b075</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="CI Post Build WebHook">14cbdebb13002600913abcc32244b057</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">544bd1d01358e2008e4cb9304244b075</workflow_version>
         <x>357</x>
         <y>376</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>1ccbdebb13002600913abcc32244b058</document_key>
+        <document_key>9c4bd1d01358e2008e4cb9304244b075</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:15</sys_created_on>
-        <sys_id>9ccbdebb13002600913abcc32244b058</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:50:42</sys_updated_on>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>104bd1d01358e2008e4cb9304244b076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
         <value>//workflow.scratchpad.repo_sysID&#13;
 &#13;
 var workingBranchName = workflow.inputs.u_scm_branch;&#13;
@@ -365,7 +370,7 @@ if (!branchname){&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Get Branch From Commit">1ccbdebb13002600913abcc32244b058</activity>
+        <activity display_value="Get Branch From Commit">9c4bd1d01358e2008e4cb9304244b075</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -378,12 +383,12 @@ if (!branchname){&#13;
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:15</sys_created_on>
-        <sys_id>90cbdebb13002600913abcc32244b059</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>144bd1d01358e2008e4cb9304244b076</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:15</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -400,35 +405,35 @@ if (!branchname){&#13;
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:15</sys_created_on>
-        <sys_id>d0cbdebb13002600913abcc32244b058</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:15</sys_updated_on>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>544bd1d01358e2008e4cb9304244b079</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:42</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="CI Post Build WebHook">14cbdebb13002600913abcc32244b057</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">544bd1d01358e2008e4cb9304244b075</workflow_version>
         <x>129</x>
         <y>197</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d0cbdebb13002600913abcc32244b058</document_key>
+        <document_key>544bd1d01358e2008e4cb9304244b079</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:15</sys_created_on>
-        <sys_id>54cbdebb13002600913abcc32244b058</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:15</sys_updated_on>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>d44bd1d01358e2008e4cb9304244b079</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:42</sys_updated_on>
         <value>//x_snc_itom_ci_jenkins_credentials&#13;
 var juser;&#13;
 var jpass;&#13;
 &#13;
-gs.info("github passes url ****  :" +workflow.inputs.u_scm_url);&#13;
+//gs.info("github passes url ****  :" +workflow.inputs.u_scm_url);&#13;
 var GL = new GlideRecord('x_snc_itom_ci_github_repositories');&#13;
 GL.addQuery('url' ,workflow.inputs.u_scm_url);&#13;
 GL.query();&#13;
@@ -439,7 +444,7 @@ while (GL.next()) {&#13;
 	//var encrypted = GL.password; &#13;
 	//jpass = Encrypter.decrypt(encrypted);&#13;
 	jpass = GL.credential.password.getDecryptedValue();&#13;
-	gs.info("USER:" + GL.credential.user);&#13;
+	//gs.info("USER:" + GL.credential.user);&#13;
 	workflow.scratchpad.scm_User = juser;&#13;
 	workflow.scratchpad.scm_Password = jpass;&#13;
 	workflow.scratchpad.repo_sysID = GL.sys_id;&#13;
@@ -450,7 +455,7 @@ while (GL.next()) {&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Get GITHUB Creds">d0cbdebb13002600913abcc32244b058</activity>
+        <activity display_value="Get GITHUB Creds">544bd1d01358e2008e4cb9304244b079</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -463,12 +468,12 @@ while (GL.next()) {&#13;
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:15</sys_created_on>
-        <sys_id>58cbdebb13002600913abcc32244b058</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>d84bd1d01358e2008e4cb9304244b079</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:15</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -485,30 +490,30 @@ while (GL.next()) {&#13;
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>10cbdebb13002600913abcc32244b05b</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>9c4bd1d01358e2008e4cb9304244b079</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="CI Post Build WebHook">14cbdebb13002600913abcc32244b057</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">544bd1d01358e2008e4cb9304244b075</workflow_version>
         <x>27</x>
         <y>107</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>10cbdebb13002600913abcc32244b05b</document_key>
+        <document_key>9c4bd1d01358e2008e4cb9304244b079</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>90cbdebb13002600913abcc32244b05b</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>104bd1d01358e2008e4cb9304244b07a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
         <value>//x_snc_itom_ci_jenkins_credentials&#13;
 var juser;&#13;
 var jpass;&#13;
@@ -530,7 +535,7 @@ while (GL.next()) {&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Get Jenkins Creds">10cbdebb13002600913abcc32244b05b</activity>
+        <activity display_value="Get Jenkins Creds">9c4bd1d01358e2008e4cb9304244b079</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -543,12 +548,12 @@ while (GL.next()) {&#13;
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>94cbdebb13002600913abcc32244b05b</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>144bd1d01358e2008e4cb9304244b07a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -565,32 +570,32 @@ while (GL.next()) {&#13;
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:15</sys_created_on>
-        <sys_id>54cbdebb13002600913abcc32244b059</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:15</sys_updated_on>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>1c4bd1d01358e2008e4cb9304244b078</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:28:47</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="CI Post Build WebHook">14cbdebb13002600913abcc32244b057</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">544bd1d01358e2008e4cb9304244b075</workflow_version>
         <x>783</x>
         <y>626</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>54cbdebb13002600913abcc32244b059</document_key>
+        <document_key>1c4bd1d01358e2008e4cb9304244b078</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:15</sys_created_on>
-        <sys_id>d4cbdebb13002600913abcc32244b059</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:15</sys_updated_on>
-        <value>gs.info("Commit ID:"+workflow.scratchpad.commitID);&#13;
-&#13;
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>9c4bd1d01358e2008e4cb9304244b078</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:28:47</sys_updated_on>
+        <value>//gs.info("Commit ID:"+workflow.scratchpad.commitID);&#13;
+//var commitSha = workflow.scratchpad.commitID;&#13;
 //Get Commit from DB&#13;
 var actions = workflow.scratchpad.build_json.actions;&#13;
 for (x = 0; x &lt; actions.length; x++) {&#13;
@@ -671,7 +676,7 @@ while (BuildDB.next()) {&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Write Build To Table">54cbdebb13002600913abcc32244b059</activity>
+        <activity display_value="Write Build To Table">1c4bd1d01358e2008e4cb9304244b078</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -684,12 +689,12 @@ while (BuildDB.next()) {&#13;
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:15</sys_created_on>
-        <sys_id>d8cbdebb13002600913abcc32244b059</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>904bd1d01358e2008e4cb9304244b079</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:15</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
@@ -706,30 +711,30 @@ while (BuildDB.next()) {&#13;
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:15</sys_created_on>
-        <sys_id>9ccbdebb13002600913abcc32244b059</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>d44bd1d01358e2008e4cb9304244b076</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:15</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="CI Post Build WebHook">14cbdebb13002600913abcc32244b057</workflow_version>
+        <workflow_version display_value="CI Post Build WebHook">544bd1d01358e2008e4cb9304244b075</workflow_version>
         <x>460</x>
         <y>465</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>9ccbdebb13002600913abcc32244b059</document_key>
+        <document_key>d44bd1d01358e2008e4cb9304244b076</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:15</sys_created_on>
-        <sys_id>10cbdebb13002600913abcc32244b05a</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>584bd1d01358e2008e4cb9304244b076</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:15</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
         <value>//workflow.scratchpad.branch_sysID&#13;
 &#13;
 function ISODateTimeToGlideDateTime(s) {&#13;
@@ -792,7 +797,7 @@ if (!branch_commits_InDB){&#13;
 	var repo_sysID = workflow.scratchpad.repo_sysID;&#13;
 	var user = workflow.scratchpad.scm_User;&#13;
 	var password = workflow.scratchpad.scm_Password;&#13;
-	var SHA = workflow.inputs.u_commit_id;&#13;
+	var SHA = workflow.inputs.u_scm_commit;&#13;
 	var repo = workflow.scratchpad.repo;&#13;
 	var owner = workflow.scratchpad.owner;&#13;
 	var files = commits_return_json.files;&#13;
@@ -822,14 +827,14 @@ if (!branch_commits_InDB){&#13;
 		//Get The RAW file that was modified in the commit&#13;
 		try {&#13;
 			var rawfile = new sn_ws.RESTMessageV2();&#13;
-			//gs.info('https://raw.githubusercontent.com/' + owner + "/" + repo + "/" + SHA + "/" + fileurl);&#13;
-			rawfile.setEndpoint('https://raw.githubusercontent.com/' + owner + "/" + repo + "/" + SHA + "/" + fileurl);							&#13;
+			//gs.info('ENDPOINT = https://raw.githubusercontent.com/' + owner + "/" + repo + "/" + SHA + "/" + fileurl);&#13;
+			rawfile.setEndpoint('https://raw.githubusercontent.com/' + owner + "/" + repo + "/" + SHA + "/" + fileurl);			&#13;
 			rawfile.setBasicAuth(workflow.scratchpad.scm_User, workflow.scratchpad.scm_Password);&#13;
 			rawfile.setHttpMethod("get");&#13;
 			var response = rawfile.execute();&#13;
 			var responseBody = response.getBody();&#13;
 			var httpStatus = response.getStatusCode();&#13;
-			gs.info("RAW FILE :  " + responseBody);&#13;
+			//gs.info("RAW FILE :  " + responseBody);&#13;
 		}&#13;
 		catch(ex) {&#13;
 			//var message = ex.getMessage();&#13;
@@ -875,7 +880,7 @@ rec2.update();&#13;
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Write Commit to Table">9ccbdebb13002600913abcc32244b059</activity>
+        <activity display_value="Write Commit to Table">d44bd1d01358e2008e4cb9304244b076</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -888,100 +893,100 @@ rec2.update();&#13;
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:15</sys_created_on>
-        <sys_id>14cbdebb13002600913abcc32244b05a</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>5c4bd1d01358e2008e4cb9304244b076</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:15</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">14cbdebb13002600913abcc32244b05a</condition>
-        <from display_value="Write Commit to Table">9ccbdebb13002600913abcc32244b059</from>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>10cbdebb13002600913abcc32244b05d</sys_id>
+        <condition display_value="Always">144bd1d01358e2008e4cb9304244b076</condition>
+        <from display_value="Get Branch From Commit">9c4bd1d01358e2008e4cb9304244b075</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>504bd1d01358e2008e4cb9304244b07b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
-        <to display_value="Call Jenkins to get build status">58cbdebb13002600913abcc32244b05b</to>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
+        <to display_value="Write Commit to Table">d44bd1d01358e2008e4cb9304244b076</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">58cbdebb13002600913abcc32244b058</condition>
-        <from display_value="Get GITHUB Creds">d0cbdebb13002600913abcc32244b058</from>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>14cbdebb13002600913abcc32244b05d</sys_id>
+        <condition display_value="Always">d04bd1d01358e2008e4cb9304244b078</condition>
+        <from display_value="Fetch Commit from SCM">5c4bd1d01358e2008e4cb9304244b077</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>544bd1d01358e2008e4cb9304244b07b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
-        <to display_value="Fetch Commit from SCM">d4cbdebb13002600913abcc32244b05a</to>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
+        <to display_value="Get Branch From Commit">9c4bd1d01358e2008e4cb9304244b075</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">90cbdebb13002600913abcc32244b059</condition>
-        <from display_value="Get Branch From Commit">1ccbdebb13002600913abcc32244b058</from>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>1ccbdebb13002600913abcc32244b05c</sys_id>
+        <condition display_value="Always">d84bd1d01358e2008e4cb9304244b079</condition>
+        <from display_value="Get GITHUB Creds">544bd1d01358e2008e4cb9304244b079</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>584bd1d01358e2008e4cb9304244b07b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
-        <to display_value="Write Commit to Table">9ccbdebb13002600913abcc32244b059</to>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
+        <to display_value="Fetch Commit from SCM">5c4bd1d01358e2008e4cb9304244b077</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">5ccbdebb13002600913abcc32244b05a</condition>
-        <from display_value="Fetch Commit from SCM">d4cbdebb13002600913abcc32244b05a</from>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>5ccb12fb13002600913abcc32244b049</sys_id>
+        <condition display_value="Always">5c4bd1d01358e2008e4cb9304244b076</condition>
+        <from display_value="Write Commit to Table">d44bd1d01358e2008e4cb9304244b076</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>5c4bd1d01358e2008e4cb9304244b07a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
-        <to display_value="Get Branch From Commit">1ccbdebb13002600913abcc32244b058</to>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
+        <to display_value="Call Jenkins to get build status">144bd1d01358e2008e4cb9304244b077</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">10cbdebb13002600913abcc32244b058</condition>
-        <from display_value="Begin">5ccbdebb13002600913abcc32244b057</from>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>90cbdebb13002600913abcc32244b05d</sys_id>
+        <condition display_value="Always">984bd1d01358e2008e4cb9304244b077</condition>
+        <from display_value="Call Jenkins to get build status">144bd1d01358e2008e4cb9304244b077</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>d04bd1d01358e2008e4cb9304244b07b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
-        <to display_value="Get Jenkins Creds">10cbdebb13002600913abcc32244b05b</to>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
+        <to display_value="Write Build To Table">1c4bd1d01358e2008e4cb9304244b078</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">dccbdebb13002600913abcc32244b05b</condition>
-        <from display_value="Call Jenkins to get build status">58cbdebb13002600913abcc32244b05b</from>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>94cbdebb13002600913abcc32244b05d</sys_id>
+        <condition display_value="Always">904bd1d01358e2008e4cb9304244b079</condition>
+        <from display_value="Write Build To Table">1c4bd1d01358e2008e4cb9304244b078</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>d44bd1d01358e2008e4cb9304244b07b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
-        <to display_value="Write Build To Table">54cbdebb13002600913abcc32244b059</to>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
+        <to display_value="End">104bd1d01358e2008e4cb9304244b077</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">94cbdebb13002600913abcc32244b05b</condition>
-        <from display_value="Get Jenkins Creds">10cbdebb13002600913abcc32244b05b</from>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>98cbdebb13002600913abcc32244b05c</sys_id>
+        <condition display_value="Always">584bd1d01358e2008e4cb9304244b078</condition>
+        <from display_value="Begin">944bd1d01358e2008e4cb9304244b078</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>d84bd1d01358e2008e4cb9304244b07a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
-        <to display_value="Get GITHUB Creds">d0cbdebb13002600913abcc32244b058</to>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
+        <to display_value="Get Jenkins Creds">9c4bd1d01358e2008e4cb9304244b079</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">d8cbdebb13002600913abcc32244b059</condition>
-        <from display_value="Write Build To Table">54cbdebb13002600913abcc32244b059</from>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:16</sys_created_on>
-        <sys_id>9ccbdebb13002600913abcc32244b05c</sys_id>
+        <condition display_value="Always">144bd1d01358e2008e4cb9304244b07a</condition>
+        <from display_value="Get Jenkins Creds">9c4bd1d01358e2008e4cb9304244b079</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>dc4bd1d01358e2008e4cb9304244b07a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:16</sys_updated_on>
-        <to display_value="End">90cbdebb13002600913abcc32244b05c</to>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
+        <to display_value="Get GITHUB Creds">544bd1d01358e2008e4cb9304244b079</to>
     </wf_transition>
     <var_dictionary action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1571,15 +1576,15 @@ rec2.update();&#13;
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
-        <sys_created_by>shaun.millin</sys_created_by>
-        <sys_created_on>2016-06-23 12:49:15</sys_created_on>
-        <sys_id>54cbdebb13002600913abcc32244b057</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-06-24 21:24:25</sys_created_on>
+        <sys_id>944bd1d01358e2008e4cb9304244b075</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shaun.millin</sys_updated_by>
-        <sys_updated_on>2016-06-23 12:49:15</sys_updated_on>
-        <workflow_version display_value="CI Post Build WebHook">14cbdebb13002600913abcc32244b057</workflow_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:24:25</sys_updated_on>
+        <workflow_version display_value="CI Post Build WebHook">544bd1d01358e2008e4cb9304244b075</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=4dc6d79e13735a00913abcc32244b016^sys_id!=14cbdebb13002600913abcc32244b057">
+    <wf_workflow_version action="update_multiple" query="workflow=4dc6d79e13735a00913abcc32244b016^sys_id!=544bd1d01358e2008e4cb9304244b075">
         <published>false</published>
     </wf_workflow_version>
 </record_update>
