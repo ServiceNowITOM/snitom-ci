@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="GitLab Commit Files" max_length="40" name="x_snc_itom_ci_gitlab_commit_files" type="collection">
+        <element label="Commit" max_length="32" name="commit" reference="x_snc_itom_ci_gitlab_commits" type="reference"/>
+        <element label="Commit SHA" max_length="41" name="commit_sha" type="string"/>
+        <element label="File Name" max_length="256" name="file_name" type="string"/>
+        <element label="File Path" max_length="256" name="file_path" type="string"/>
+        <element default="0" label="File Size" max_length="40" name="file_size" type="integer"/>
+        <element label="Patch" max_length="20480" name="file_text" type="string"/>
+        <element label="Status" max_length="256" name="status" type="string"/>
+        <index name="index">
+            <element name="commit"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="SCM Commits" max_length="40" name="x_snc_itom_ci_scm_commits" type="collection">
+        <element default="0" label="Change Additions" max_length="40" name="change_additions" type="integer"/>
+        <element default="0" label="Change Deletions" max_length="40" name="change_deletions" type="integer"/>
+        <element label="Commiter" max_length="1024" name="commiter" type="string"/>
+        <element label="Commiter Email" max_length="1024" name="commiter_email" type="string"/>
+        <element label="Commit Date" max_length="40" name="commit_date" type="glide_date_time"/>
+        <element label="Message" max_length="20480" name="message" type="string"/>
+        <element display="true" label="SHA" max_length="48" name="sha" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="0" label="Total Changes" max_length="40" name="total_changes" type="integer"/>
+        <element label="Url" max_length="1024" name="url" type="url"/>
+    </element>
+</database>

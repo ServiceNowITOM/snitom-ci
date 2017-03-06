@@ -34,7 +34,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>commit_date</field>
         <field_list>commit_date,commiter,commiter_email,message,repository,branch,change_additions,change_deletions,total_changes</field_list>
-        <filter table="x_snc_itom_ci_github_commits">^GROUPBYcommit_date^TRENDBYrepository,dayofweek<item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="commit_date"/>
+        <filter table="x_snc_itom_ci_gitlab_commits">^GROUPBYcommit_date^TRENDBYrepository,dayofweek<item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="commit_date"/>
             <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="repository,dayofweek"/>
         </filter>
         <from/>
@@ -84,18 +84,18 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>shaun.millin</sys_created_by>
         <sys_created_on>2016-06-20 13:46:00</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_id>82fb03f64f04a200298deed18110c786</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Commits Per Repo. Per Day</sys_name>
         <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
         <sys_update_name>sys_report_82fb03f64f04a200298deed18110c786</sys_update_name>
-        <sys_updated_by>reuben.stump</sys_updated_by>
-        <sys_updated_on>2016-06-22 16:53:40</sys_updated_on>
-        <table>x_snc_itom_ci_github_commits</table>
+        <sys_updated_by>alex.mittell</sys_updated_by>
+        <sys_updated_on>2017-03-02 05:05:30</sys_updated_on>
+        <table>x_snc_itom_ci_gitlab_commits</table>
         <title>Commits Per Repo. Per Day</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>

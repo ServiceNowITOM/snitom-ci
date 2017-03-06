@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="normalizedobject_db_mapping">
+    <normalizedobject_db_mapping action="INSERT_OR_UPDATE">
+        <normalized_property>name</normalized_property>
+        <resource_type display_value="disks">9c6b19624fc93640dc1f0da28110c7d3</resource_type>
+        <script/>
+        <sys_class_name>normalizedobject_db_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-23 00:09:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>606b19624fc93640dc1f0da28110c7d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+        <sys_update_name>normalizedobject_db_mapping_606b19624fc93640dc1f0da28110c7d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-23 00:09:33</sys_updated_on>
+        <target_field display_value="Name" element="name" name="cmdb">82101693db00220000917c841f961917</target_field>
+        <target_table display_value="" name="cmdb_ci_azure_resource">cmdb_ci_azure_resource</target_table>
+        <use_script>false</use_script>
+        <used_to_correlate>false</used_to_correlate>
+    </normalizedobject_db_mapping>
+</record_update>

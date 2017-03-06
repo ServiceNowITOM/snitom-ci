@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="sys_db_view" relationship="" sys_domain="global" table="sys_db_view_table" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>table</element>
+            <list_id display_value="sys_db_view_table" element="NULL" name="sys_db_view_table" parent="sys_db_view" relationship="NULL" sys_domain="global" view="Default view">b93b6a180a0a0b7900968ade0594ff47</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-02-27 19:34:52</sys_created_on>
+            <sys_id>b93b6a1b0a0a0b79009b8a9fe3e28d11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-02-27 19:34:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>order</element>
+            <list_id display_value="sys_db_view_table" element="NULL" name="sys_db_view_table" parent="sys_db_view" relationship="NULL" sys_domain="global" view="Default view">b93b6a180a0a0b7900968ade0594ff47</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-02-27 19:34:52</sys_created_on>
+            <sys_id>b93b6a2c0a0a0b79003d71e231ded54c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-02-27 19:34:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>variable_prefix</element>
+            <list_id display_value="sys_db_view_table" element="NULL" name="sys_db_view_table" parent="sys_db_view" relationship="NULL" sys_domain="global" view="Default view">b93b6a180a0a0b7900968ade0594ff47</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-02-27 19:34:52</sys_created_on>
+            <sys_id>b93b6a440a0a0b790061dbb93fa09b0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-02-27 19:34:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>where_clause</element>
+            <list_id display_value="sys_db_view_table" element="NULL" name="sys_db_view_table" parent="sys_db_view" relationship="NULL" sys_domain="global" view="Default view">b93b6a180a0a0b7900968ade0594ff47</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-02-27 19:34:52</sys_created_on>
+            <sys_id>b93b6a490a0a0b7900efb75a8790b022</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-02-27 19:34:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>view</element>
+            <list_id display_value="sys_db_view_table" element="NULL" name="sys_db_view_table" parent="sys_db_view" relationship="NULL" sys_domain="global" view="Default view">b93b6a180a0a0b7900968ade0594ff47</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>glide.maint</sys_created_by>
+            <sys_created_on>2009-02-27 19:34:52</sys_created_on>
+            <sys_id>b93b6a4e0a0a0b7900adbaf808b0f522</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>glide.maint</sys_updated_by>
+            <sys_updated_on>2009-02-27 19:34:52</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_db_view_table</name>
+            <parent>sys_db_view</parent>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>alex.mittell</sys_created_by>
+            <sys_created_on>2017-03-02 04:06:26</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72b416f84fd9f640dc1f0da28110c7a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_db_view_table</sys_name>
+            <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+            <sys_update_name>sys_ui_list_sys_db_view_table_sys_db_view_null</sys_update_name>
+            <sys_updated_by>alex.mittell</sys_updated_by>
+            <sys_updated_on>2017-03-02 04:06:26</sys_updated_on>
+            <sys_user display_value="Alex Mittell">eadfb4c34fe02200dc1f0da28110c715</sys_user>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

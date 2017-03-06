@@ -3,7 +3,7 @@
     <element label="Jenkins Builds" max_length="40" name="x_snc_itom_ci_jenkins_builds" type="collection">
         <element label="building" max_length="256" name="building" type="string"/>
         <element display="true" label="Build ID" mandatory="true" max_length="40" name="build_id" type="integer"/>
-        <element label="Commit" max_length="32" name="commit" reference="x_snc_itom_ci_github_commits" type="reference"/>
+        <element label="Commit" max_length="32" name="commit" reference="x_snc_itom_ci_scm_commits" type="reference"/>
         <element label="Description" max_length="1024" name="description" type="string"/>
         <element label="Display_Name" max_length="1024" name="display_name" type="string"/>
         <element default="0" label="Duration" max_length="40" name="duration" type="integer"/>

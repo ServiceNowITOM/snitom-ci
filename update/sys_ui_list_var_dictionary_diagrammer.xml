@@ -117,8 +117,8 @@
             <sys_update_name>sys_ui_list_var_dictionary_diagrammer</sys_update_name>
             <sys_updated_by>shaun.millin</sys_updated_by>
             <sys_updated_on>2016-06-23 15:38:38</sys_updated_on>
-            <sys_user display_value="Shaun Millin">499eaa3213671600913abcc32244b0f7</sys_user>
-            <view display_value="Diagrammer" name="diagrammer">94d8950713131200913abcc32244b062</view>
+            <sys_user display_value="">499eaa3213671600913abcc32244b0f7</sys_user>
+            <view display_value="Diagrammer" name="diagrammer">2a519617db00220000917c841f961939</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

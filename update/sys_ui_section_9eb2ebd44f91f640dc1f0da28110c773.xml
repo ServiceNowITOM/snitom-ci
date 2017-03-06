@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="9eb2ebd44f91f640dc1f0da28110c773" sys_domain="global" table="x_snc_itom_ci_gitlab_repositories" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>credential</element>
+            <position>0</position>
+            <sys_created_by>alex.mittell</sys_created_by>
+            <sys_created_on>2017-02-28 20:30:14</sys_created_on>
+            <sys_id>1eb2ebd44f91f640dc1f0da28110c776</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_repositories" sys_domain="global" view="Default view">9eb2ebd44f91f640dc1f0da28110c773</sys_ui_section>
+            <sys_updated_by>alex.mittell</sys_updated_by>
+            <sys_updated_on>2017-02-28 20:30:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>alex.mittell</sys_created_by>
+            <sys_created_on>2017-02-28 20:30:14</sys_created_on>
+            <sys_id>9eb2ebd44f91f640dc1f0da28110c776</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_repositories" sys_domain="global" view="Default view">9eb2ebd44f91f640dc1f0da28110c773</sys_ui_section>
+            <sys_updated_by>alex.mittell</sys_updated_by>
+            <sys_updated_on>2017-02-28 20:30:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>full_name</element>
+            <position>2</position>
+            <sys_created_by>alex.mittell</sys_created_by>
+            <sys_created_on>2017-02-28 20:30:14</sys_created_on>
+            <sys_id>12b2ebd44f91f640dc1f0da28110c777</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_repositories" sys_domain="global" view="Default view">9eb2ebd44f91f640dc1f0da28110c773</sys_ui_section>
+            <sys_updated_by>alex.mittell</sys_updated_by>
+            <sys_updated_on>2017-02-28 20:30:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>3</position>
+            <sys_created_by>alex.mittell</sys_created_by>
+            <sys_created_on>2017-02-28 20:30:14</sys_created_on>
+            <sys_id>92b2ebd44f91f640dc1f0da28110c777</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_repositories" sys_domain="global" view="Default view">9eb2ebd44f91f640dc1f0da28110c773</sys_ui_section>
+            <sys_updated_by>alex.mittell</sys_updated_by>
+            <sys_updated_on>2017-02-28 20:30:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>url</element>
+            <position>4</position>
+            <sys_created_by>alex.mittell</sys_created_by>
+            <sys_created_on>2017-02-28 20:30:14</sys_created_on>
+            <sys_id>16b2ebd44f91f640dc1f0da28110c777</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_repositories" sys_domain="global" view="Default view">9eb2ebd44f91f640dc1f0da28110c773</sys_ui_section>
+            <sys_updated_by>alex.mittell</sys_updated_by>
+            <sys_updated_on>2017-02-28 20:30:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_itom_ci_gitlab_repositories</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>alex.mittell</sys_created_by>
+            <sys_created_on>2017-02-28 20:30:14</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9eb2ebd44f91f640dc1f0da28110c773</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_itom_ci_gitlab_repositories</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+            <sys_update_name>sys_ui_section_9eb2ebd44f91f640dc1f0da28110c773</sys_update_name>
+            <sys_updated_by>alex.mittell</sys_updated_by>
+            <sys_updated_on>2017-02-28 20:30:14</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

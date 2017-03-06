@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="change_deletions" label="Change Deletions" language="en" table="x_snc_itom_ci_scm_commits">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>change_deletions</element>
+            <help/>
+            <hint/>
+            <label>Change Deletions</label>
+            <language>en</language>
+            <name>x_snc_itom_ci_scm_commits</name>
+            <plural>Change Deletions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>alex.mittell</sys_created_by>
+            <sys_created_on>2017-03-02 04:32:34</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>65bada7c4fd9f640dc1f0da28110c74f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Change Deletions</sys_name>
+            <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_itom_ci_scm_commits_change_deletions_en</sys_update_name>
+            <sys_updated_by>alex.mittell</sys_updated_by>
+            <sys_updated_on>2017-03-02 04:32:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

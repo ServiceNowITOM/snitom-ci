@@ -17,7 +17,7 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class/>
+        <super_class display_value="SCM Commits" name="x_snc_itom_ci_scm_commits">ed61e9b44f99f640dc1f0da28110c70c</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>reuben.stump</sys_created_by>
         <sys_created_on>2016-06-03 14:47:21</sys_created_on>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="aws_resource_type">
+    <aws_resource_type action="INSERT_OR_UPDATE">
+        <aws_service display_value="AWS CloudFormation">8bdf09609f022100fbf01f80a57fcfe3</aws_service>
+        <build_relationships>false</build_relationships>
+        <ci_rel_script/>
+        <ci_rel_script_call/>
+        <name>DBSubnetGroup</name>
+        <reference_field/>
+        <resource_type>AWS::RDS::DBSubnetGroup</resource_type>
+        <sys_class_name>aws_resource_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-04 00:12:38</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>2562fbdd1359b6405a4354c32244b07f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DBSubnetGroup</sys_name>
+        <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+        <sys_update_name>aws_resource_type_2562fbdd1359b6405a4354c32244b07f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-04 00:12:38</sys_updated_on>
+        <table display_value="" name="cmdb_ci_aws_resource">cmdb_ci_aws_resource</table>
+    </aws_resource_type>
+</record_update>

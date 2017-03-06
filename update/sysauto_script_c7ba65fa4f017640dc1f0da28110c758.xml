@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>HtfrdDemoStack</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2017-02-23 23:56:25</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[var currentTable = "cmdb_ci_cloudformation_stack";  
+var currentId = "baba65fa4f017640dc1f0da28110c754";  
+var vars ={"u_action":"terminate","u_action_name":"create","u_cmp_provider":"c224ade0933002007472f23a767ffb23","u_req_item_id":"daba25fa4f017640dc1f0da28110c7ab","u_request_user_id":"6816f79cc0a8016401c5a33be04be441","u_resource_type_name":"AWS::CloudFormation::Stack","u_virtualization_provider":"","u_vm_parameters":"{\"error\":\"\",\"itemCount\":\"1\",\"itemIndex\":\"0\",\"lease_end\":\"2017-02-23 23:55:03\",\"lease_start\":\"2017-02-23 19:54:51\",\"request_user_id\":\"6816f79cc0a8016401c5a33be04be441\",\"u_aws_account\":\"0a6f548f4fc85a0063914fa18110c770\",\"u_aws_cf_template\":\"f3dd184f4fc85a0063914fa18110c7fd\",\"u_aws_region\":\"46a059609f022100fbf01f80a57fcfe6\",\"u_count\":\"1\",\"u_creation_parameters\":\"{\\\"capabilities\\\":[],\\\"parameters\\\":{\\\"DesiredCapacity\\\":\\\"0\\\"},\\\"tags\\\":{\\\"Chevron Business Unit Tag\\\":\\\"\\\",\\\"Contact\\\":\\\"\\\",\\\"Name\\\":\\\"\\\",\\\"Owners\\\":\\\"\\\",\\\"Purpose\\\":\\\"\\\",\\\"UUID\\\":\\\"\\\",\\\"Vendor\\\":\\\"\\\",\\\"aws:cloudformation:logical-id\\\":\\\"\\\",\\\"aws:cloudformation:stack-name\\\":\\\"\\\"}}\",\"u_policy\":\"\",\"u_req_item_id\":\"daba25fa4f017640dc1f0da28110c7ab\",\"u_stack_name\":\"HtfrdDemoStack\",\"u_use_federated_access\":\"false\"}"}; 
+new global.VMScheduler(currentTable, currentId).processScheduleJob("Deprovision Amazon CloudFormation Stack", vars);]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-23 19:55:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c7ba65fa4f017640dc1f0da28110c758</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>HtfrdDemoStack</sys_name>
+        <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+        <sys_update_name>sysauto_script_c7ba65fa4f017640dc1f0da28110c758</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-02-23 23:55:25</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

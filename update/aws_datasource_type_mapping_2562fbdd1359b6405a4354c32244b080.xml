@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="aws_datasource_type_mapping">
+    <aws_datasource_type_mapping action="INSERT_OR_UPDATE">
+        <datasource display_value="AWS CloudFormation">8bdf09609f022100fbf01f80a57fcfe3</datasource>
+        <normalized_property>resourceType</normalized_property>
+        <resource_type display_value="DBSubnetGroup">2562fbdd1359b6405a4354c32244b07f</resource_type>
+        <script/>
+        <source_field>ResourceType</source_field>
+        <sys_class_name>aws_datasource_type_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-03-04 00:12:38</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>2562fbdd1359b6405a4354c32244b080</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+        <sys_update_name>aws_datasource_type_mapping_2562fbdd1359b6405a4354c32244b080</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-03-04 00:12:38</sys_updated_on>
+        <use_script>false</use_script>
+    </aws_datasource_type_mapping>
+</record_update>

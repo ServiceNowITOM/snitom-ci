@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_element_activity">
+    <wf_element_activity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <attributes/>
+        <base_provider display_value="SOAP Web Service">1043b11237132100aa40cc9fbe41f11a</base_provider>
+        <category/>
+        <checked_out_by/>
+        <default_height/>
+        <default_width/>
+        <description/>
+        <image>images/heisenberg_icons/workflow_ie8/provider_soap.png</image>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"Username","type":"STRING","mandatory":false},{"name":"Role","type":"STRING","mandatory":false}]}</input_meta>
+        <input_process_script/>
+        <input_transform>{"web_service_message":"","web_service_message_function":"","web_service_endpoint":"","parameters":"[]","use_mid_server":"true","midCapabilities":"9df941930a00067818fcb3834b216f8f","time_out":"10","auth_type":"use_existing_credentials","credentials":"","protocol_profile":"","username_profile":""}</input_transform>
+        <local_variables/>
+        <name>Get BUID</name>
+        <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"BUID","type":"STRING"}]}</output_meta>
+        <output_process_script/>
+        <output_transform/>
+        <processing_script/>
+        <sample_payloads>{}</sample_payloads>
+        <short_description/>
+        <style/>
+        <sys_class_name>wf_element_activity</sys_class_name>
+        <sys_created_by>alex.mittell</sys_created_by>
+        <sys_created_on>2017-02-24 15:33:11</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5258f5874f857640dc1f0da28110c763</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Get BUID</sys_name>
+        <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+        <sys_update_name>wf_element_activity_5258f5874f857640dc1f0da28110c763</sys_update_name>
+        <sys_updated_by>alex.mittell</sys_updated_by>
+        <sys_updated_on>2017-02-24 15:47:37</sys_updated_on>
+        <version_container_id>cc68b5874f857640dc1f0da28110c75f</version_container_id>
+    </wf_element_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=5258f5874f857640dc1f0da28110c763"/>
+    <wf_versionable action="INSERT_OR_UPDATE">
+        <checked_out/>
+        <checked_out_by/>
+        <published>true</published>
+        <sys_created_by>alex.mittell</sys_created_by>
+        <sys_created_on>2017-02-24 15:33:11</sys_created_on>
+        <sys_id>8468b5874f857640dc1f0da28110c760</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>alex.mittell</sys_updated_by>
+        <sys_updated_on>2017-02-24 15:47:37</sys_updated_on>
+        <valid_from>2017-02-24 15:47:37</valid_from>
+        <valid_to/>
+        <version>1</version>
+        <version_container_id>cc68b5874f857640dc1f0da28110c75f</version_container_id>
+        <wf_element_definition display_value="Get BUID">5258f5874f857640dc1f0da28110c763</wf_element_definition>
+    </wf_versionable>
+    <wf_versionable action="update_multiple" query="version_container_id=cc68b5874f857640dc1f0da28110c75f^sys_id!=8468b5874f857640dc1f0da28110c760">
+        <published>false</published>
+    </wf_versionable>
+    <wf_activity action="update_multiple" is_dot_walk_query="true" query="workflow_version.published=true^activity_definition.version_container_id=cc68b5874f857640dc1f0da28110c75f^pinned=true">
+        <new_activity_definition>5258f5874f857640dc1f0da28110c763</new_activity_definition>
+        <out_of_date>true</out_of_date>
+        <notes>There is a newer version of this activity. To update the activity, check out the workflow, select the activity, right click and select update activity to use the latest version.</notes>
+    </wf_activity>
+    <wf_activity action="update_multiple" is_dot_walk_query="true" query="workflow_version.published=true^activity_definition.version_container_id=cc68b5874f857640dc1f0da28110c75f^pinned=false">
+        <activity_definition>5258f5874f857640dc1f0da28110c763</activity_definition>
+        <activity_definition_updated>true</activity_definition_updated>
+        <notes>This activity was updated to a newer version since the workflow was published.</notes>
+    </wf_activity>
+</record_update>

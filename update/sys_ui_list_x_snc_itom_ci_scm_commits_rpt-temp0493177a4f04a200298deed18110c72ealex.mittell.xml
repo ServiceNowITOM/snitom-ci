@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_itom_ci_scm_commits" version="2" view="rpt-temp0493177a4f04a200298deed18110c72ealex.mittell">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sha</element>
+            <list_id display_value="x_snc_itom_ci_scm_commits" element="NULL" name="x_snc_itom_ci_scm_commits" parent="NULL" relationship="NULL" sys_domain="global" view="1bfb26b44f1df640dc1f0da28110c7b7">5a1ca6b44f1df640dc1f0da28110c790</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>alex.mittell</sys_created_by>
+            <sys_created_on>2017-03-02 05:48:32</sys_created_on>
+            <sys_id>5e1ca6b44f1df640dc1f0da28110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.mittell</sys_updated_by>
+            <sys_updated_on>2017-03-02 05:48:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>commiter</element>
+            <list_id display_value="x_snc_itom_ci_scm_commits" element="NULL" name="x_snc_itom_ci_scm_commits" parent="NULL" relationship="NULL" sys_domain="global" view="1bfb26b44f1df640dc1f0da28110c7b7">5a1ca6b44f1df640dc1f0da28110c790</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>alex.mittell</sys_created_by>
+            <sys_created_on>2017-03-02 05:48:32</sys_created_on>
+            <sys_id>de1ca6b44f1df640dc1f0da28110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.mittell</sys_updated_by>
+            <sys_updated_on>2017-03-02 05:48:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>commiter_email</element>
+            <list_id display_value="x_snc_itom_ci_scm_commits" element="NULL" name="x_snc_itom_ci_scm_commits" parent="NULL" relationship="NULL" sys_domain="global" view="1bfb26b44f1df640dc1f0da28110c7b7">5a1ca6b44f1df640dc1f0da28110c790</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>alex.mittell</sys_created_by>
+            <sys_created_on>2017-03-02 05:48:32</sys_created_on>
+            <sys_id>521ca6b44f1df640dc1f0da28110c791</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.mittell</sys_updated_by>
+            <sys_updated_on>2017-03-02 05:48:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>commit_date</element>
+            <list_id display_value="x_snc_itom_ci_scm_commits" element="NULL" name="x_snc_itom_ci_scm_commits" parent="NULL" relationship="NULL" sys_domain="global" view="1bfb26b44f1df640dc1f0da28110c7b7">5a1ca6b44f1df640dc1f0da28110c790</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>alex.mittell</sys_created_by>
+            <sys_created_on>2017-03-02 05:48:32</sys_created_on>
+            <sys_id>d21ca6b44f1df640dc1f0da28110c791</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.mittell</sys_updated_by>
+            <sys_updated_on>2017-03-02 05:48:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>total_changes</element>
+            <list_id display_value="x_snc_itom_ci_scm_commits" element="NULL" name="x_snc_itom_ci_scm_commits" parent="NULL" relationship="NULL" sys_domain="global" view="1bfb26b44f1df640dc1f0da28110c7b7">5a1ca6b44f1df640dc1f0da28110c790</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>alex.mittell</sys_created_by>
+            <sys_created_on>2017-03-02 05:48:32</sys_created_on>
+            <sys_id>561ca6b44f1df640dc1f0da28110c791</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.mittell</sys_updated_by>
+            <sys_updated_on>2017-03-02 05:48:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_class_name</element>
+            <list_id display_value="x_snc_itom_ci_scm_commits" element="NULL" name="x_snc_itom_ci_scm_commits" parent="NULL" relationship="NULL" sys_domain="global" view="1bfb26b44f1df640dc1f0da28110c7b7">5a1ca6b44f1df640dc1f0da28110c790</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>alex.mittell</sys_created_by>
+            <sys_created_on>2017-03-02 05:48:32</sys_created_on>
+            <sys_id>d61ca6b44f1df640dc1f0da28110c791</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>alex.mittell</sys_updated_by>
+            <sys_updated_on>2017-03-02 05:48:32</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_itom_ci_scm_commits</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>alex.mittell</sys_created_by>
+            <sys_created_on>2017-03-02 05:48:32</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a1ca6b44f1df640dc1f0da28110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>alex.mittell</sys_updated_by>
+            <sys_updated_on>2017-03-02 05:48:32</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt-temp0493177a4f04a200298deed18110c72ealex.mittell" name="rpt-temp0493177a4f04a200298deed18110c72ealex.mittell">1bfb26b44f1df640dc1f0da28110c7b7</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

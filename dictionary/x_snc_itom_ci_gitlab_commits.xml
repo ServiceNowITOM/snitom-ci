@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_snc_itom_ci_scm_commits" label="GitLab Commits" max_length="40" name="x_snc_itom_ci_gitlab_commits" type="collection">
+        <element label="Branch" max_length="32" name="branch" reference="x_snc_itom_ci_gitlab_branches" type="reference"/>
+        <element label="Repository" max_length="32" name="repository" reference="x_snc_itom_ci_gitlab_repositories" type="reference"/>
+        <index name="index">
+            <element name="repository"/>
+        </index>
+        <index name="index2">
+            <element name="branch"/>
+        </index>
+    </element>
+</database>
