@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="EC2 Instance - Windows-2008r2-sp1-english-sqlstandard-2011.11.11-Demo-v1">12ea552c132db2005a4354c32244b0a1</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>alex.mittell</sys_created_by>
+        <sys_created_on>2017-03-13 15:31:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>36ead52c132db2005a4354c32244b069</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EC2 Instance - Windows-2008r2-sp1-english-sqlstandard-2011.11.11-Demo-v1.Roles in Virtual Resources Categories</sys_name>
+        <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_36ead52c132db2005a4354c32244b069</sys_update_name>
+        <sys_updated_by>alex.mittell</sys_updated_by>
+        <sys_updated_on>2017-03-13 15:31:04</sys_updated_on>
+        <user_criteria display_value="Roles in Virtual Resources Categories">d39a2187c3232100e2ddb59af3d3ae25</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

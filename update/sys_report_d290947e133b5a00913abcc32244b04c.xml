@@ -34,7 +34,8 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>jenk_timestamp</field>
         <field_list/>
-        <filter table="x_snc_itom_ci_scm_commits_view">^GROUPBYjenk_timestamp<item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="jenk_timestamp"/>
+        <filter table="x_snc_itom_ci_scm_commits_view">^GROUPBYjenk_timestamp^TRENDBYgl_branch,date<item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="jenk_timestamp"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="gl_branch,date"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -85,7 +86,7 @@
         <sys_created_on>2016-06-07 13:51:39</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>d290947e133b5a00913abcc32244b04c</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Average Build Job Duration</sys_name>
         <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
         <sys_policy/>
@@ -93,13 +94,13 @@
         <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
         <sys_update_name>sys_report_d290947e133b5a00913abcc32244b04c</sys_update_name>
         <sys_updated_by>alex.mittell</sys_updated_by>
-        <sys_updated_on>2017-03-02 05:02:54</sys_updated_on>
+        <sys_updated_on>2017-03-14 18:31:47</sys_updated_on>
         <table>x_snc_itom_ci_scm_commits_view</table>
         <title>Average Build Job Duration</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field/>
+        <trend_field>gl_branch</trend_field>
         <type>bar</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>

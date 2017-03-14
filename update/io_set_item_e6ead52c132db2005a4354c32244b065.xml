@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="EC2 Instance - Windows-2008r2-sp1-english-sqlstandard-2011.11.11-Demo-v1">12ea552c132db2005a4354c32244b0a1</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>alex.mittell</sys_created_by>
+        <sys_created_on>2017-03-13 15:31:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e6ead52c132db2005a4354c32244b065</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Terms and Conditions.EC2 Instance - Windows-2008r2-sp1-english-sqlstandard-2011.11.11-Demo-v1</sys_name>
+        <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+        <sys_update_name>io_set_item_e6ead52c132db2005a4354c32244b065</sys_update_name>
+        <sys_updated_by>alex.mittell</sys_updated_by>
+        <sys_updated_on>2017-03-13 15:31:04</sys_updated_on>
+        <variable_set display_value="Terms and Conditions">5fb02c66374130006b882d465abe5d81</variable_set>
+    </io_set_item>
+</record_update>
