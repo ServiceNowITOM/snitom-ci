@@ -15,6 +15,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mid_server</element>
+            <position>1</position>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-21 18:23:28</sys_created_on>
+            <sys_id>c21f074313e9b6005a4354c32244b0f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_servers" sys_domain="global" view="Default view">29ec5b524fb31a00298deed18110c7af</sys_ui_section>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-21 18:23:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ssl</element>
+            <position>2</position>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-21 20:01:01</sys_created_on>
+            <sys_id>4b65238b13e9b6005a4354c32244b074</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_jenkins_servers" sys_domain="global" view="Default view">29ec5b524fb31a00298deed18110c7af</sys_ui_section>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-21 20:01:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
@@ -27,7 +55,7 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>29ec5b524fb31a00298deed18110c7af</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_name>x_snc_itom_ci_jenkins_servers</sys_name>
             <sys_overrides/>
             <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
@@ -36,7 +64,7 @@
             <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
             <sys_update_name>sys_ui_section_29ec5b524fb31a00298deed18110c7af</sys_update_name>
             <sys_updated_by>shaun.millin</sys_updated_by>
-            <sys_updated_on>2016-06-23 15:38:35</sys_updated_on>
+            <sys_updated_on>2017-03-21 20:01:01</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

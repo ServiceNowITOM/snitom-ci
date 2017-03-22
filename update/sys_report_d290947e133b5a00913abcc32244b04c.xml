@@ -34,8 +34,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>jenk_timestamp</field>
         <field_list/>
-        <filter table="x_snc_itom_ci_scm_commits_view">^GROUPBYjenk_timestamp^TRENDBYgl_branch,date<item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="jenk_timestamp"/>
-            <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="gl_branch,date"/>
+        <filter table="x_snc_itom_ci_scm_commits_view">^GROUPBYjenk_timestamp<item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="jenk_timestamp"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -86,26 +85,26 @@
         <sys_created_on>2016-06-07 13:51:39</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>d290947e133b5a00913abcc32244b04c</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Average Build Job Duration</sys_name>
         <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
         <sys_update_name>sys_report_d290947e133b5a00913abcc32244b04c</sys_update_name>
-        <sys_updated_by>alex.mittell</sys_updated_by>
-        <sys_updated_on>2017-03-14 18:31:47</sys_updated_on>
+        <sys_updated_by>shaun.millin</sys_updated_by>
+        <sys_updated_on>2017-03-22 16:55:05</sys_updated_on>
         <table>x_snc_itom_ci_scm_commits_view</table>
         <title>Average Build Job Duration</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
-        <trend_field>gl_branch</trend_field>
+        <trend_field/>
         <type>bar</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>
         <use_color_palette>true</use_color_palette>
-        <user>499eaa3213671600913abcc32244b0f7</user>
+        <user>c2b2812a4fa26240dc1f0da28110c70d</user>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
         <x_axis_grid_dotted>false</x_axis_grid_dotted>

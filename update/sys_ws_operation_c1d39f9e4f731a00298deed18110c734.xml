@@ -9,33 +9,73 @@
         <http_method>POST</http_method>
         <name>notification</name>
         <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
-
+	
 	/* TODO: Add validation of secret token from GitHub Webhook */
 	
 	req_data = request.body.data;
-	
+	var myproto;
 	wf_name = "CI Post Build WebHook";
 	wf_vars = { };
-	wf_vars.u_build_host = request.getHeader("x-forwarded-for");
+	
+	
 	if ( req_data.build.full_url ) {
 		//gs.info("FULL_URL="+req_data.build.full_url);
 		wf_vars.u_build_url = req_data.build.full_url;
+		wf_vars.u_build_host = wf_vars.u_build_url.split('/')[2];
 	} else {
 		//gs.info("BUILT_URL=https://"+wf_vars.u_build_host+"/"+req_data.build.url);
-		wf_vars.u_build_url = "https://"+wf_vars.u_build_host+"/"+req_data.build.url;
+		//build url based on SSL
+		wf_vars.u_build_host = request.getHeader("x-forwarded-for");
+		var GL = new GlideRecord('x_snc_itom_ci_jenkins_servers');
+		GL.addQuery('host', wf_vars.u_build_host);
+		GL.query();
+		while (GL.next()){
+			if (GL.ssl){
+				myproto = 'https://';
+			}
+			else {
+				myproto = 'http://';
+			}
+		}
+		wf_vars.u_build_url = myproto+wf_vars.u_build_host+"/"+req_data.build.url;
 	}
-	wf_vars.u_scm_url = req_data.build.scm.url;
-	wf_vars.u_scm_branch = req_data.build.scm.branch;
-	wf_vars.u_scm_commit = req_data.build.scm.commit;
+	
+	if (!wf_vars.u_build_url){
+		throw "Failed to Find Jenkins URL from JSON return or header :" + req_data;
+	}
+	
+	if (req_data.build.scm.url) {
+		wf_vars.u_scm_url = req_data.build.scm.url;
+	} else {
+		gs.warning("Jenkins did not provide an SCM URL, will attempt to look up repo by job name.");
+		wf_vars.u_scm_url = '';
+	}
+	
+	if (req_data.build.scm.branch) {
+		wf_vars.u_scm_branch = req_data.build.scm.branch;
+	} else {
+		gs.warning("Jenkins did not provide an SCM branch, trying to use build parameters.");
+		wf_vars.u_scm_branch = req_data.build.parameters.BRANCH;
+	}
+	if (req_data.build.scm.commit) {
+		wf_vars.u_scm_commit = req_data.build.scm.commit;
+	} else {
+		gs.warning("Jenkins did not provide an SCM commit, trying to use build parameters.");
+		wf_vars.u_scm_commit = req_data.build.parameters.REV;
+	}
+	wf_vars.u_jenkins_job_name = req_data.name;
+	//wf_vars.u_scm_branch = req_data.build.parameters.BRANCH;
+	//wf_vars.u_scm_commit = req_data.build.parameters.REV;
 	
 	gs.info("JSON_FROM_JENKINS="+global.JSON.stringify(req_data));
-	
+	gs.info("BUILD_URL="+wf_vars.u_build_url);
+	gs.info("BUILD_HOST="+wf_vars.u_build_host);
 	wf = new global.Workflow();
 	wfid = wf.getWorkflowFromName(wf_name);
 	wf.startFlow(wfid, null, wf_name, wf_vars);
 	
 	response.setStatus(200);
-
+	
 })(request, response);]]></operation_script>
         <operation_uri>/api/x_snc_itom_ci/jenkins_webhook/notification</operation_uri>
         <produces>application/json,application/xml,text/xml</produces>
@@ -50,7 +90,7 @@
         <sys_created_on>2016-06-06 14:48:16</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>c1d39f9e4f731a00298deed18110c734</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>31</sys_mod_count>
         <sys_name>notification</sys_name>
         <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
         <sys_policy/>
@@ -58,7 +98,7 @@
         <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
         <sys_update_name>sys_ws_operation_c1d39f9e4f731a00298deed18110c734</sys_update_name>
         <sys_updated_by>alex.mittell</sys_updated_by>
-        <sys_updated_on>2017-02-28 20:48:25</sys_updated_on>
+        <sys_updated_on>2017-03-22 19:20:52</sys_updated_on>
         <web_service_definition display_value="Jenkins Webhook">3fb35f9e4f731a00298deed18110c789</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

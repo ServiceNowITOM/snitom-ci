@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_vm_schedule">
+    <cmn_vm_schedule action="INSERT_OR_UPDATE">
+        <description>VM schedule PTCTestStack requested</description>
+        <document/>
+        <document_key/>
+        <name>PTCTestStack</name>
+        <parent/>
+        <read_only>false</read_only>
+        <sys_class_name>cmn_vm_schedule</sys_class_name>
+        <sys_created_by>alex.mittell</sys_created_by>
+        <sys_created_on>2017-03-16 13:35:36</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e04dd86d13e136005a4354c32244b0aa</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>PTCTestStack</sys_name>
+        <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+        <sys_update_name>cmn_vm_schedule_e04dd86d13e136005a4354c32244b0aa</sys_update_name>
+        <sys_updated_by>alex.mittell</sys_updated_by>
+        <sys_updated_on>2017-03-16 21:36:09</sys_updated_on>
+        <time_zone/>
+        <type>Virtual Provisioning</type>
+    </cmn_vm_schedule>
+</record_update>

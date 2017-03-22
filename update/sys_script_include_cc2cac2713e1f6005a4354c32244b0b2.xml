@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_itom_ci.CICDWebcall</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>CICDWebcall</name>
+        <script><![CDATA[var CICDWebcall = Class.create();
+CICDWebcall.prototype = {
+	initialize: function() {
+	},
+	
+	makecall: function(httpcommand, method) {
+		var count = 0;
+		function rerun(hcommand, count){
+			var httpExecute = hcommand.execute();
+			var webstatus = httpExecute.getStatusCode();
+			if (count <= 5){
+				count++;
+				if (webstatus != 200) {
+					rerun(hcommand, count);
+				}
+				else {
+					var messageBody = httpExecute.getBody();
+				}
+			}
+			else {
+				throw "Failed to connect to Web Call for CICD";
+			}
+			
+			
+			httpExecute.getStatusCode()
+			if (!messageBody) {
+				gs.warning("Web call to SCM failed, retrying.");
+				httpExecute = restMessage.execute();
+				messageBody = httpExecute.getBody();
+			}
+			return messageBody
+		}
+		var httpExecute = httpcommand.execute();
+		var messageBody = httpExecute.getBody();
+		httpExecute.getStatusCode()
+		if (!messageBody) {
+			gs.warning("Web call to SCM failed, retrying.");
+			httpExecute = restMessage.execute();
+			messageBody = httpExecute.getBody();
+		}
+		return messageBody
+	},
+	
+	type: 'CICDWebcall'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>shaun.millin</sys_created_by>
+        <sys_created_on>2017-03-22 20:04:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>cc2cac2713e1f6005a4354c32244b0b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CICDWebcall</sys_name>
+        <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+        <sys_update_name>sys_script_include_cc2cac2713e1f6005a4354c32244b0b2</sys_update_name>
+        <sys_updated_by>shaun.millin</sys_updated_by>
+        <sys_updated_on>2017-03-22 20:04:40</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -71,6 +71,34 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mid_server</element>
+            <position>5</position>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-21 13:08:37</sys_created_on>
+            <sys_id>8e07cec31369b6005a4354c32244b0ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_repositories" sys_domain="global" view="Default view">9eb2ebd44f91f640dc1f0da28110c773</sys_ui_section>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-21 13:08:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>jenkins_job_name</element>
+            <position>6</position>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-21 13:39:52</sys_created_on>
+            <sys_id>3b2e8ac71369b6005a4354c32244b06e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_repositories" sys_domain="global" view="Default view">9eb2ebd44f91f640dc1f0da28110c773</sys_ui_section>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-21 13:39:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

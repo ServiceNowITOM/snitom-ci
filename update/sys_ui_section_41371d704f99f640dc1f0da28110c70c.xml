@@ -4,282 +4,310 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>0</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>8fd859b04f99f640dc1f0da28110c728</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>42e8402713a1f6005a4354c32244b030</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>commit_date</element>
             <position>1</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>03d859b04f99f640dc1f0da28110c729</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>c2e8402713a1f6005a4354c32244b030</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>2</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>83d859b04f99f640dc1f0da28110c729</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>46e8402713a1f6005a4354c32244b030</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>branch</element>
             <position>3</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>07d859b04f99f640dc1f0da28110c729</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>c6e8402713a1f6005a4354c32244b030</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
             <position>4</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>87d859b04f99f640dc1f0da28110c729</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>4ae8402713a1f6005a4354c32244b030</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>url</element>
             <position>5</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>0bd859b04f99f640dc1f0da28110c729</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>cae8402713a1f6005a4354c32244b030</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>message</element>
             <position>6</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>8bd859b04f99f640dc1f0da28110c729</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>4ee8402713a1f6005a4354c32244b030</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>7</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>0fd859b04f99f640dc1f0da28110c729</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>cee8402713a1f6005a4354c32244b030</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sha</element>
             <position>8</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>8fd859b04f99f640dc1f0da28110c729</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>42e8402713a1f6005a4354c32244b031</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>change_additions</element>
             <position>9</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>03d859b04f99f640dc1f0da28110c72a</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>c2e8402713a1f6005a4354c32244b031</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>10</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>83d859b04f99f640dc1f0da28110c72a</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>46e8402713a1f6005a4354c32244b031</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>change_deletions</element>
             <position>11</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>07d859b04f99f640dc1f0da28110c72a</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>c6e8402713a1f6005a4354c32244b031</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
             <position>12</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>87d859b04f99f640dc1f0da28110c72a</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>4ae8402713a1f6005a4354c32244b031</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>commiter</element>
             <position>13</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>0bd859b04f99f640dc1f0da28110c72a</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>cae8402713a1f6005a4354c32244b031</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>commiter_email</element>
             <position>14</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>8bd859b04f99f640dc1f0da28110c72a</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>4ee8402713a1f6005a4354c32244b031</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
             <position>15</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>0fd859b04f99f640dc1f0da28110c72a</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>cee8402713a1f6005a4354c32244b031</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>repository</element>
             <position>16</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>8fd859b04f99f640dc1f0da28110c72a</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>42e8402713a1f6005a4354c32244b032</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>17</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>03d859b04f99f640dc1f0da28110c72b</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>c2e8402713a1f6005a4354c32244b032</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>total_changes</element>
             <position>18</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>83d859b04f99f640dc1f0da28110c72b</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>46e8402713a1f6005a4354c32244b032</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
             <position>19</position>
-            <sys_created_by>alex.mittell</sys_created_by>
-            <sys_created_on>2017-03-01 23:44:51</sys_created_on>
-            <sys_id>07d859b04f99f640dc1f0da28110c72b</sys_id>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>c6e8402713a1f6005a4354c32244b032</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
-            <sys_updated_by>alex.mittell</sys_updated_by>
-            <sys_updated_on>2017-03-01 23:44:51</sys_updated_on>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>issue</element>
+            <position>20</position>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>4ae8402713a1f6005a4354c32244b032</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>change</element>
+            <position>21</position>
+            <sys_created_by>shaun.millin</sys_created_by>
+            <sys_created_on>2017-03-22 17:14:32</sys_created_on>
+            <sys_id>cae8402713a1f6005a4354c32244b032</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_itom_ci_gitlab_commits" sys_domain="global" view="Default view">41371d704f99f640dc1f0da28110c70c</sys_ui_section>
+            <sys_updated_by>shaun.millin</sys_updated_by>
+            <sys_updated_on>2017-03-22 17:14:32</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

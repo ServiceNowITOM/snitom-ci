@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>PTCTestStack</name>
+        <run_as display_value="Alex Mittell">eadfb4c34fe02200dc1f0da28110c715</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2017-03-16 21:37:09</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[var currentTable = "cmdb_ci_cloudformation_stack";  
+var currentId = "504dd86d13e136005a4354c32244b0a6";  
+var vars ={"u_action":"terminate","u_action_name":"create","u_cmp_provider":"c224ade0933002007472f23a767ffb23","u_req_item_id":"fb3d986d13e136005a4354c32244b0d7","u_request_user_id":"eadfb4c34fe02200dc1f0da28110c715","u_resource_type_name":"AWS::CloudFormation::Stack","u_virtualization_provider":"","u_vm_parameters":"{\"error\":\"\",\"itemCount\":\"1\",\"itemIndex\":\"0\",\"lease_end\":\"2017-03-16 17:35:32\",\"lease_start\":\"2017-03-16 13:35:00\",\"request_user_id\":\"eadfb4c34fe02200dc1f0da28110c715\",\"u_aws_account\":\"0a6f548f4fc85a0063914fa18110c770\",\"u_aws_cf_template\":\"f3dd184f4fc85a0063914fa18110c7fd\",\"u_aws_region\":\"46a059609f022100fbf01f80a57fcfe6\",\"u_count\":\"1\",\"u_creation_parameters\":\"{\\\"capabilities\\\":[],\\\"parameters\\\":{\\\"DesiredCapacity\\\":\\\"0\\\"},\\\"tags\\\":{\\\"Chevron Business Unit Tag\\\":\\\"\\\",\\\"Contact\\\":\\\"\\\",\\\"Name\\\":\\\"\\\",\\\"Owners\\\":\\\"\\\",\\\"Purpose\\\":\\\"\\\",\\\"UUID\\\":\\\"\\\",\\\"Vendor\\\":\\\"\\\",\\\"aws:cloudformation:logical-id\\\":\\\"\\\",\\\"aws:cloudformation:stack-name\\\":\\\"\\\"}}\",\"u_policy\":\"\",\"u_req_item_id\":\"fb3d986d13e136005a4354c32244b0d7\",\"u_stack_name\":\"PTCTestStack\",\"u_use_federated_access\":\"false\"}"}; 
+new global.VMScheduler(currentTable, currentId).processScheduleJob("Deprovision Amazon CloudFormation Stack", vars);]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>alex.mittell</sys_created_by>
+        <sys_created_on>2017-03-16 13:35:36</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ac4dd86d13e136005a4354c32244b0a9</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>PTCTestStack</sys_name>
+        <sys_package display_value="Continuous Integration" source="x_snc_itom_ci">741820034f671600298deed18110c701</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Continuous Integration">741820034f671600298deed18110c701</sys_scope>
+        <sys_update_name>sysauto_script_ac4dd86d13e136005a4354c32244b0a9</sys_update_name>
+        <sys_updated_by>alex.mittell</sys_updated_by>
+        <sys_updated_on>2017-03-16 21:36:09</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

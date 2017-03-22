@@ -4,10 +4,15 @@
         <element label="Credential" max_length="32" name="credential" reference="x_snc_itom_ci_gitlab_credentials" type="reference"/>
         <element label="Description" max_length="20480" name="description" type="string"/>
         <element label="Full Name" max_length="20480" name="full_name" type="string"/>
+        <element label="Jenkins job name" max_length="40" name="jenkins_job_name" type="string"/>
+        <element label="Mid server" max_length="32" name="mid_server" reference="ecc_agent" type="reference"/>
         <element label="Name" max_length="2048" name="name" type="string"/>
         <element label="Url" max_length="1024" name="url" type="url"/>
         <index name="index">
             <element name="credential"/>
+        </index>
+        <index name="index2">
+            <element name="mid_server"/>
         </index>
     </element>
 </database>
